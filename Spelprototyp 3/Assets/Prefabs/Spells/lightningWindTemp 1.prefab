@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5494831979269005224}
   - component: {fileID: 5494831979269005271}
   - component: {fileID: 5494831979269005270}
+  - component: {fileID: 1890452397983236331}
   m_Layer: 0
   m_Name: lightningWindTemp 1
   m_TagString: Untagged
@@ -121,3 +122,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.165
+--- !u!114 &1890452397983236331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5494831979269005269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266394b930a8416428a4c7c1373ecdba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
