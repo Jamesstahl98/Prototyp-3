@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 4376295677737026490}
   - component: {fileID: -1349133967407733264}
   - component: {fileID: -6265881351063188158}
+  - component: {fileID: -8732699336016328995}
   m_Layer: 0
-  m_Name: AirTemp
-  m_TagString: Untagged
+  m_Name: windTemp
+  m_TagString: Wind
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,3 +122,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.03967074}
   serializedVersion: 2
   m_Radius: 1.1675999
+--- !u!114 &-8732699336016328995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4468806306965453452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32209faa342b0fa47a1be6aa1e1fa57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
