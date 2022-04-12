@@ -10,5 +10,15 @@ public class FireCollider : MonoBehaviour
         {
             //collision.gameObject.GetComponent<Enemy>().TakeDamage(5);
         }
+
+        if (collision.gameObject.tag == "Earth")
+        {
+            
+        }
+
+        if (collision.gameObject.tag == "Wind")
+        {
+            
+        }
     }
 }
