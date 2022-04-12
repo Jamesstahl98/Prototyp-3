@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WindCollider : MonoBehaviour
+public class CloudCollider : MonoBehaviour
 {
     public float baseDamage;
 

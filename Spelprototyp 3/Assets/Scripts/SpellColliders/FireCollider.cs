@@ -8,12 +8,13 @@ public class FireCollider : MonoBehaviour
     public GameObject fireTornadoPrefab;
 
     public float magmaForce = 2f;
+    public float baseDamage;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            //collision.gameObject.GetComponent<Enemy>().TakeDamage(5);
+            //collision.gameObject.GetComponent<Enemy>().TakeDamage(baseDamage);
         }
 
         if (collision.gameObject.tag == "Earth")
