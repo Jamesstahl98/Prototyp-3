@@ -4,30 +4,19 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
- 
-    public Transform target;//set target from inspector instead of looking in Update
-    public float speed = 3f;
-
-
+    public float speed;
+    public SpriteRenderer spriteRenderer;
+    private Transform target;
+    
     void Start()
     {
-
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
     void Update()
     {
-
-        //rotate to look at the player
-        transform.LookAt(target.position);
-        transform.Rotate(new Vector3(0, -90, 0), Space.Self);//correcting the original rotation
-
-
-        //move towards the player
-        if (Vector3.Distance(transform.position, target.position) > 1f)
-        {//move if distance from target is greater than 1
-            transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
-        }
-
+        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        Vector2 direction = (target.position - transform.position).normalized;
+        spriteRenderer.flipX = direction.x > 0;
     }
-
 }
