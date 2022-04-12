@@ -123,37 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &451644761 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1495602897289010388, guid: e3427ab93e80b3b4ea2389ab0bae5da2, type: 3}
-  m_PrefabInstance: {fileID: 587449437}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &451644762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451644761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 347cd499490311644a1fea563dec92c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fireButton: 323
-  earthButton: 324
-  lightningButton: 304
-  waterButton: 306
-  windButton: 32
-  firePoint: {fileID: 2067563324}
-  firePrefab: {fileID: 1466571173037844522, guid: d93cfadfe58f8e441aa99a4f69cbaa55, type: 3}
-  earthPrefab: {fileID: 4309715723002350255, guid: 4d515cae5b3b9f341a7472fe1b59514f, type: 3}
-  lightningPrefab: {fileID: 3740996500395691063, guid: ede9b77e4faa37647b4541b5d9ba8638, type: 3}
-  waterPrefab: {fileID: 2052799883509264665, guid: b8656f9423714ea4cb1176b063ad8acd, type: 3}
-  windPrefab: {fileID: 4468806306965453452, guid: d71c1ba61d19e864d8d7dc7323efe788, type: 3}
-  arcanePrefab: {fileID: 7350997697358587486, guid: 5ac94f0b828c4dc4f9f3c56b0ccc1dfb, type: 3}
-  fireForce: 20
-  earthForce: 10
 --- !u!1001 &587449437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -294,8 +263,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2067563324 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1957130268322314612, guid: e3427ab93e80b3b4ea2389ab0bae5da2, type: 3}
-  m_PrefabInstance: {fileID: 587449437}
-  m_PrefabAsset: {fileID: 0}
