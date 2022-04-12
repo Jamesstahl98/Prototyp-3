@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8273022651579163934}
   - component: {fileID: -9045643775754222428}
   - component: {fileID: 5305598845688780782}
+  - component: {fileID: 8054382250464827336}
   m_Layer: 0
   m_Name: lightningTemp
   m_TagString: Lightning
@@ -139,3 +140,18 @@ PolygonCollider2D:
       - {x: 0.83740544, y: -0.8448253}
       - {x: 1.14835, y: -0.61052024}
       - {x: 1.2670562, y: -0.14613318}
+--- !u!114 &8054382250464827336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3740996500395691063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff8ab11981fed874d8acd214fd976e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightningWindPrefab: {fileID: 6967926217217271640, guid: 3f38bac1a574ee7479052c20fafac1e7, type: 3}
+  cloudPrefab: {fileID: 5494831979269005269, guid: 656556c89fb284b499a57d6fa57ef746, type: 3}
+  cloudForce: 3
