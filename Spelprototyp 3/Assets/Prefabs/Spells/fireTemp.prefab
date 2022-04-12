@@ -144,3 +144,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b98e2bd01f105f94780103859dcb546a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  magmaPrefab: {fileID: 6118437002099983855, guid: 672264b6a0610654cafeaa919be992ea, type: 3}
+  magmaForce: 2
