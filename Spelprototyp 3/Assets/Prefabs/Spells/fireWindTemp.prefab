@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1755362933687561995}
   - component: {fileID: 8602417814545701609}
   - component: {fileID: 5129949666846440464}
+  - component: {fileID: -2082190260946449516}
   m_Layer: 0
   m_Name: fireWindTemp
   m_TagString: Untagged
@@ -121,3 +122,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.255
+--- !u!114 &-2082190260946449516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8650673261748095643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b561f729a94e5034c8a1670c590942bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
