@@ -5,7 +5,8 @@ using UnityEngine;
 public class ArcaneCollider : MonoBehaviour
 {
     public float baseDamage;
-    void OnCollisionEnter2D(Collision2D collision)
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {
