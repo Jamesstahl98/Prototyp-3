@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8602417814545701609}
   - component: {fileID: 5129949666846440464}
   - component: {fileID: -2082190260946449516}
+  - component: {fileID: -4655669237042197130}
   m_Layer: 0
   m_Name: fireWindTemp
   m_TagString: Untagged
@@ -132,5 +133,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b561f729a94e5034c8a1670c590942bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-4655669237042197130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8650673261748095643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd846c34f3a44b349b0aefe525ccd976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
