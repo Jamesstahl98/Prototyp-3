@@ -147,6 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd846c34f3a44b349b0aefe525ccd976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseDamage: 0
+  baseDamage: 3
   spellHP: 1000
   damageType: Fire

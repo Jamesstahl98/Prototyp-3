@@ -17,7 +17,7 @@ public class LightningCollider : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            //collision.gameObject.GetComponent<EnemyHit>().TakeDamage(baseDamage, damageType);
+            collision.gameObject.GetComponent<EnemyHit>().TakeDamage(baseDamage, damageType);
             spellHP -= 1;
 
             if (spellHP <= 0)

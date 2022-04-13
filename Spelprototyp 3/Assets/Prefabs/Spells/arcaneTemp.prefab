@@ -144,6 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e3172df005e8a942bac8cad23baf0e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseDamage: 0
+  baseDamage: 2
   spellHP: 5
   damageType: Arcane

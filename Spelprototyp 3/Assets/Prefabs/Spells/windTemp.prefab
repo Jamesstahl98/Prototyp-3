@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32209faa342b0fa47a1be6aa1e1fa57e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseDamage: 0
+  baseDamage: 3
   spellHP: 1000
   damageType: Wind
 --- !u!114 &6465849018665239475

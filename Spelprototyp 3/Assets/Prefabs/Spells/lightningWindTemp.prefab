@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0321bf6afbb888429f8b7e0813be20a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseDamage: 0
+  baseDamage: 3
   spellHP: 1000
   damageType: Lightning
 --- !u!114 &-7879468185888700276

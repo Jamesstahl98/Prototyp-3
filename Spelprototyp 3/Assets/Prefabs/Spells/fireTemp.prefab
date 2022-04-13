@@ -147,6 +147,6 @@ MonoBehaviour:
   magmaPrefab: {fileID: 6118437002099983855, guid: 672264b6a0610654cafeaa919be992ea, type: 3}
   fireTornadoPrefab: {fileID: 8650673261748095643, guid: 6bff8a3989faab647ad29ddd27a43f3c, type: 3}
   magmaForce: 2
-  baseDamage: 0
+  baseDamage: 3
   spellHP: 2
   damageType: Fire
