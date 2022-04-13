@@ -145,3 +145,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseDamage: 0
+  spellHP: 5
+  damageType: Arcane

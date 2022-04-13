@@ -136,6 +136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseDamage: 0
+  spellHP: 1000
+  damageType: Lightning
 --- !u!114 &-7879468185888700276
 MonoBehaviour:
   m_ObjectHideFlags: 0

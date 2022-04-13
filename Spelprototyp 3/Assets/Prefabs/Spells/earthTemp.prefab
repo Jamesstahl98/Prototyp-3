@@ -146,3 +146,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plantPrefab: {fileID: 3672089297724630825, guid: f70c68a9f4722a14aa98547fc588b8b7, type: 3}
   baseDamage: 0
+  spellHP: 3
+  damageType: Earth

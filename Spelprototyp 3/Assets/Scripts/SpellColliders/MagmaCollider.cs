@@ -5,12 +5,21 @@ using UnityEngine;
 public class MagmaCollider : MonoBehaviour
 {
     public float baseDamage;
+    public float spellHP;
 
-    void OnCollisionEnter2D(Collision2D collision)
+    public string damageType;
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            //collision.gameObject.GetComponent<Enemy>().TakeDamage(baseDamage);
+            //collision.gameObject.GetComponent<EnemyHit>().TakeDamage(baseDamage, damageType);
+            spellHP -= 1;
+
+            if (spellHP <= 0)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

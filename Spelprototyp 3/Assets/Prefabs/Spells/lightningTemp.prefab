@@ -156,3 +156,5 @@ MonoBehaviour:
   cloudPrefab: {fileID: 5494831979269005269, guid: 656556c89fb284b499a57d6fa57ef746, type: 3}
   cloudForce: 3
   baseDamage: 0
+  spellHP: 1000
+  damageType: Lightning

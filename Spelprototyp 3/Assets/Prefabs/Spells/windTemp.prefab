@@ -136,6 +136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseDamage: 0
+  spellHP: 1000
+  damageType: Wind
 --- !u!114 &6465849018665239475
 MonoBehaviour:
   m_ObjectHideFlags: 0
