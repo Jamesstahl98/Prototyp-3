@@ -265,6 +265,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7579117314340687071, guid: e3427ab93e80b3b4ea2389ab0bae5da2, type: 3}
+      propertyPath: fireCD
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579117314340687071, guid: e3427ab93e80b3b4ea2389ab0bae5da2, type: 3}
+      propertyPath: windCD
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579117314340687071, guid: e3427ab93e80b3b4ea2389ab0bae5da2, type: 3}
+      propertyPath: earthCD
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579117314340687071, guid: e3427ab93e80b3b4ea2389ab0bae5da2, type: 3}
+      propertyPath: waterCD
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579117314340687071, guid: e3427ab93e80b3b4ea2389ab0bae5da2, type: 3}
+      propertyPath: lightningCD
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3427ab93e80b3b4ea2389ab0bae5da2, type: 3}
 --- !u!1 &747022754 stripped

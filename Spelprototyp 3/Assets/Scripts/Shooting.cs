@@ -20,31 +20,49 @@ public class Shooting : MonoBehaviour
 
     public float fireForce = 20f;
     public float earthForce = 10f;
+    
+    public float fireCD;
+    public float earthCD;
+    public float lightningCD;
+    public float waterCD;
+    public float windCD;
+    
+    private float fireTimer = 100f;
+    private float earthTimer = 100f;
+    private float lightningTimer = 100f;
+    private float waterTimer = 100f;
+    private float windTimer = 100f;
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(fireButton))
+        fireTimer += Time.deltaTime;
+        earthTimer += Time.deltaTime;
+        lightningTimer += Time.deltaTime;
+        waterTimer += Time.deltaTime;
+        windTimer += Time.deltaTime;
+
+        if (Input.GetKeyDown(fireButton) && fireTimer > fireCD)
         {
             ShootFire();
         }
 
-        if(Input.GetKeyDown(earthButton))
+        if (Input.GetKeyDown(earthButton) && earthTimer > earthCD)
         {
             ShootEarth();
         }
 
-        if (Input.GetKeyDown(lightningButton))
+        if (Input.GetKeyDown(lightningButton) && lightningTimer > lightningCD)
         {
             ShootLightning();
         }
 
-        if (Input.GetKeyDown(waterButton))
+        if (Input.GetKeyDown(waterButton) && waterTimer > waterCD)
         {
             ShootWater();
         }
 
-        if (Input.GetKeyDown(windButton))
+        if (Input.GetKeyDown(windButton) && windTimer > windCD)
         {
             ShootWind();
         }
@@ -55,6 +73,7 @@ public class Shooting : MonoBehaviour
         GameObject fireProjectile = Instantiate(firePrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = fireProjectile.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
+        fireTimer = 0;
     }
 
     void ShootEarth()
@@ -62,20 +81,24 @@ public class Shooting : MonoBehaviour
         GameObject earthProjectile = Instantiate(earthPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = earthProjectile.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * earthForce, ForceMode2D.Impulse);
+        earthTimer = 0;
     }
 
     void ShootLightning()
     {
         GameObject lightningCone = Instantiate(lightningPrefab, firePoint.position, firePoint.rotation);
+        lightningTimer = 0;
     }
 
     void ShootWater()
     {
         GameObject waterCone = Instantiate(waterPrefab, firePoint.position, firePoint.rotation);
+        waterTimer = 0;
     }
 
     void ShootWind()
     {
         GameObject windCircle = Instantiate(windPrefab, firePoint.position, firePoint.rotation);
+        windTimer = 0;
     }
 }
