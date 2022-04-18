@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5494831979269005271}
   - component: {fileID: 5494831979269005270}
   - component: {fileID: 4424606542832181640}
+  - component: {fileID: -358557848193032122}
   m_Layer: 0
   m_Name: cloudTemp
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9d782cf5f2df1934aa8a1853adff0a9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d76ac9c7144418949809da8440dd962c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -137,3 +138,16 @@ MonoBehaviour:
   baseDamage: 3
   spellHP: 1000
   damageType: Lightning
+--- !u!114 &-358557848193032122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5494831979269005269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a57a2fd98b485d459b146beec0f0db6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spellDuration: 4

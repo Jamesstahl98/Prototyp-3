@@ -2,24 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireWindController : MonoBehaviour
+public class LightningController : MonoBehaviour
 {
     public float spellDuration;
+    //public GameObject firePoint;
 
     private float startTime;
     private float spellTimer;
 
-    private GameObject player;
-
     void Start()
     {
         startTime = Time.time;
-        player = GameObject.Find("Player");
+        //transform.rotation.z = firePoint.transform.rotation.z;
     }
 
+    // Update is called once per frame
     void Update()
     {
-        transform.position = player.transform.position;
         spellTimer = Time.time - startTime;
 
         if (spellTimer >= spellDuration)

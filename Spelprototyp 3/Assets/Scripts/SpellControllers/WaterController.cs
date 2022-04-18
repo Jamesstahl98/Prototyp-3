@@ -2,24 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireWindController : MonoBehaviour
+public class WaterController : MonoBehaviour
 {
     public float spellDuration;
 
     private float startTime;
     private float spellTimer;
 
-    private GameObject player;
-
     void Start()
     {
         startTime = Time.time;
-        player = GameObject.Find("Player");
     }
 
+    // Update is called once per frame
     void Update()
     {
-        transform.position = player.transform.position;
         spellTimer = Time.time - startTime;
 
         if (spellTimer >= spellDuration)

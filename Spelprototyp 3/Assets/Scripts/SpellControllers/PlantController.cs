@@ -12,12 +12,29 @@ public class PlantController : MonoBehaviour
 
     private float spellTimer = 2f;
 
+    public float spellDuration;
+
+    private float startTime;
+    private float plantTimer;
+
+    void Start()
+    {
+        startTime = Time.time;
+    }
+
     void Update()
     {
         spellTimer += Time.deltaTime;
         if(spellTimer >= spellCD)
         {
             FireAtClosestEnemy();
+        }
+
+        plantTimer = Time.time - startTime;
+
+        if (plantTimer >= spellDuration)
+        {
+            Destroy(gameObject);
         }
     }
 

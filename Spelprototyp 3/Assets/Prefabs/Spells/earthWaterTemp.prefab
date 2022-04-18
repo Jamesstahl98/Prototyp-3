@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a93723c6688a4e242960c41d9bb22d78, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6b6eba318cd0726418fd58cb3cc6d2d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,6 +100,7 @@ MonoBehaviour:
   firePoint: {fileID: 5521671555802658226}
   projectileForce: 15
   spellCD: 3
+  spellDuration: 10
 --- !u!1 &4677082904191682264
 GameObject:
   m_ObjectHideFlags: 0

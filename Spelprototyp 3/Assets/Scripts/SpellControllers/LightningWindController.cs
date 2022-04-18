@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class LightningWindController : MonoBehaviour
 {
+    public float spellDuration;
+
+    private float startTime;
+    private float spellTimer;
+
     private GameObject player;
 
     void Start()
     {
+        startTime = Time.time;
         player = GameObject.Find("Player");
     }
 
     void Update()
     {
+        spellTimer = Time.time - startTime;
         transform.position = player.transform.position;
+
+        if (spellTimer >= spellDuration)
+        {
+            Destroy(gameObject);
+        }
     }
 }
