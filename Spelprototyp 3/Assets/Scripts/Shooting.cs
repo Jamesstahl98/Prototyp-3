@@ -5,15 +5,15 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     [SerializeField]
-    private GameObject FireCooldownUI;
+    private GameObject fireCooldownUI;
     [SerializeField]
-    private GameObject EarthCooldownUI;
+    private GameObject earthCooldownUI;
     [SerializeField]
-    private GameObject WaterCooldownUI;
+    private GameObject waterCooldownUI;
     [SerializeField]
-    private GameObject WindCooldownUI;
+    private GameObject windCooldownUI;
     [SerializeField]
-    private GameObject LightningCooldownUI;
+    private GameObject lightningCooldownUI;
 
     public KeyCode fireButton;
     public KeyCode earthButton;
@@ -56,27 +56,31 @@ public class Shooting : MonoBehaviour
         if (Input.GetKeyDown(fireButton) && fireTimer > fireCD)
         {
             ShootFire();
-            FireCooldownUI.GetComponent<UISpellCooldowns>().UseSpell("Fire");
+            fireCooldownUI.GetComponent<UISpellCooldowns>().UseSpell();
         }
 
         if (Input.GetKeyDown(earthButton) && earthTimer > earthCD)
         {
             ShootEarth();
+            earthCooldownUI.GetComponent<UISpellCooldowns>().UseSpell();
         }
 
         if (Input.GetKeyDown(lightningButton) && lightningTimer > lightningCD)
         {
             ShootLightning();
+            lightningCooldownUI.GetComponent<UISpellCooldowns>().UseSpell();
         }
 
         if (Input.GetKeyDown(waterButton) && waterTimer > waterCD)
         {
             ShootWater();
+            waterCooldownUI.GetComponent<UISpellCooldowns>().UseSpell();
         }
 
         if (Input.GetKeyDown(windButton) && windTimer > windCD)
         {
             ShootWind();
+            windCooldownUI.GetComponent<UISpellCooldowns>().UseSpell();
         }
     }
 

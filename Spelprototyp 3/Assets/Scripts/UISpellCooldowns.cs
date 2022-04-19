@@ -8,6 +8,7 @@ public class UISpellCooldowns : MonoBehaviour
 {
     private GameObject player;
 
+    [SerializeField]
     private string spellType;
 
     [SerializeField]
@@ -26,22 +27,73 @@ public class UISpellCooldowns : MonoBehaviour
         imageCooldown.fillAmount = 0.0f;
 
         GameObject player = GameObject.Find("Player");
+
+        if(spellType == "Fire")
+        {
+            cooldownTime = player.GetComponent<Shooting>().fireCD;
+        }
+
+        else if (spellType == "Earth")
+        {
+            cooldownTime = player.GetComponent<Shooting>().earthCD;
+        }
+
+        else if (spellType == "Water")
+        {
+            cooldownTime = player.GetComponent<Shooting>().waterCD;
+        }
+
+        else if (spellType == "Wind")
+        {
+            cooldownTime = player.GetComponent<Shooting>().windCD;
+        }
+
+        else if (spellType == "Lightning")
+        {
+            cooldownTime = player.GetComponent<Shooting>().lightningCD;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (spellType == "Fire" && player.GetComponent<Shooting>().fireTimer < player.GetComponent<Shooting>().fireCD)
+        if(isCooldown)
         {
-
+            ApplyCooldown();
         }
     }
 
-    public void UseSpell(string spellType)
+    void ApplyCooldown()
     {
-        Debug.Log("works");
-        isCooldown = true;
-        textCooldown.gameObject.SetActive(true);
-        cooldownTimer = cooldownTime;
+        cooldownTimer -= Time.deltaTime;
+
+        if(cooldownTimer <= 0.0f)
+        {
+            isCooldown = false;
+            textCooldown.gameObject.SetActive(false);
+            imageCooldown.fillAmount = 0.0f;
+        }
+        else
+        {
+            textCooldown.text = Mathf.RoundToInt(cooldownTimer).ToString();
+            imageCooldown.fillAmount = cooldownTimer / cooldownTime;
+        }
     }
+
+    public void UseSpell()
+    {
+        //ON CD
+        if(isCooldown)
+        {
+            
+        }
+        
+        //NOT ON CD
+        else
+        {
+            isCooldown = true;
+            textCooldown.gameObject.SetActive(true);
+            cooldownTimer = cooldownTime;
+        }
+    }  
 }
