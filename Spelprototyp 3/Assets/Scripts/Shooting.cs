@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject FireCooldownUI;
+    [SerializeField]
+    private GameObject EarthCooldownUI;
+    [SerializeField]
+    private GameObject WaterCooldownUI;
+    [SerializeField]
+    private GameObject WindCooldownUI;
+    [SerializeField]
+    private GameObject LightningCooldownUI;
+
     public KeyCode fireButton;
     public KeyCode earthButton;
     public KeyCode lightningButton;
@@ -27,11 +38,11 @@ public class Shooting : MonoBehaviour
     public float waterCD;
     public float windCD;
     
-    private float fireTimer = 100f;
-    private float earthTimer = 100f;
-    private float lightningTimer = 100f;
-    private float waterTimer = 100f;
-    private float windTimer = 100f;
+    public float fireTimer = 100f;
+    public float earthTimer = 100f;
+    public float lightningTimer = 100f;
+    public float waterTimer = 100f;
+    public float windTimer = 100f;
 
     // Update is called once per frame
     void Update()
@@ -45,6 +56,7 @@ public class Shooting : MonoBehaviour
         if (Input.GetKeyDown(fireButton) && fireTimer > fireCD)
         {
             ShootFire();
+            FireCooldownUI.GetComponent<UISpellCooldowns>().UseSpell("Fire");
         }
 
         if (Input.GetKeyDown(earthButton) && earthTimer > earthCD)
