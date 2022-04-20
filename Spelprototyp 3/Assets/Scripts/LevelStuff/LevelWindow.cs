@@ -13,11 +13,9 @@ public class LevelWindow : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("Im here");
         levelText = transform.Find("levelText").GetComponent<Text>();
         //experienceBarImage = transform.Find("experienceBar").Find("bar").GetComponent<Image>();
 
-     
     }
     
    // private void SetExperienceBarSize(float experienceNormalized)
