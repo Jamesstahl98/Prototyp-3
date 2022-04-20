@@ -59,6 +59,8 @@ GameObject:
   - component: {fileID: 5936645319813553151}
   - component: {fileID: 579180388450172019}
   - component: {fileID: 7579117314340687071}
+  - component: {fileID: 1205728281657632205}
+  - component: {fileID: 3096964154134423958}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -179,6 +181,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 347cd499490311644a1fea563dec92c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireCooldownUI: {fileID: 0}
+  earthCooldownUI: {fileID: 0}
+  waterCooldownUI: {fileID: 0}
+  windCooldownUI: {fileID: 0}
+  lightningCooldownUI: {fileID: 0}
   fireButton: 323
   earthButton: 324
   lightningButton: 304
@@ -193,6 +200,40 @@ MonoBehaviour:
   arcanePrefab: {fileID: 7350997697358587486, guid: 5ac94f0b828c4dc4f9f3c56b0ccc1dfb, type: 3}
   fireForce: 20
   earthForce: 10
+  fireCD: 0
+  earthCD: 0
+  lightningCD: 0
+  waterCD: 0
+  windCD: 0
+  fireTimer: 100
+  earthTimer: 100
+  lightningTimer: 100
+  waterTimer: 100
+  windTimer: 100
+--- !u!114 &1205728281657632205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495602897289010388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 218e619753845894d820d8609ce44d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3096964154134423958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495602897289010388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c679438bca40f24d9e7d6e7181f5a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7053765880611602174
 GameObject:
   m_ObjectHideFlags: 0

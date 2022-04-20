@@ -1,9 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelSystem : MonoBehaviour
 {
+    public event EventHandler OnExperienceChanged;
+    public event EventHandler OnLevelChanged;
+
     private int level;
     private int experience;
     private int experienceToNextLevel;
@@ -24,7 +28,10 @@ public class LevelSystem : MonoBehaviour
 
             level++;
             experience -= experienceToNextLevel;
+            experienceToNextLevel += 50;
+            if (OnLevelChanged != null) OnLevelChanged(this, EventArgs.Empty);
         }
+        if (OnExperienceChanged != null) OnExperienceChanged(this, EventArgs.Empty);
     }
 
     public int GetLevelNumber()

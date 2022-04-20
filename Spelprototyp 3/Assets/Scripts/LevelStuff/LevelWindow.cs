@@ -13,6 +13,7 @@ public class LevelWindow : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("Im here");
         levelText = transform.Find("levelText").GetComponent<Text>();
         //experienceBarImage = transform.Find("experienceBar").Find("bar").GetComponent<Image>();
 
@@ -23,7 +24,6 @@ public class LevelWindow : MonoBehaviour
     //{
    //     experienceBarImage.fillAmount = experienceNormalized;
    // }
-
     private void SetLevelNumber(int levelNumber)
     {
         levelText.text = "Level\n" + (levelNumber + 1);
@@ -36,5 +36,20 @@ public class LevelWindow : MonoBehaviour
         SetLevelNumber(levelSystem.GetLevelNumber());
         //setExperienceBarSize(levelSystem.GetExperienceNormalized());
 
+     //   levelSystem.OnExperienceChanged += LevelSystem_OnExperienceChanged;
+        levelSystem.OnLevelChanged += LevelSystem_OnLevelChanged;
+
     }
+
+    private void LevelSystem_OnLevelChanged(object sender, System.EventArgs e)
+    {
+        // Level changed, update text
+        SetLevelNumber(levelSystem.GetLevelNumber());
+
+    }
+
+    //private void LevelSystem_OnExperienceChanged(object sender, System.EventArgs e)
+   // {
+   //     SetExperienceBarSize(LevelSystem.GetExperienceNormalized());
+    //}
 }
