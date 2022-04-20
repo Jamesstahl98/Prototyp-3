@@ -43,27 +43,29 @@ public class PlantController : MonoBehaviour
         float distanceToClosestEnemy = Mathf.Infinity;
         Enemy closestEnemy = null;
         Enemy[] allEnemies = GameObject.FindObjectsOfType<Enemy>();
-
-        foreach(Enemy currentEnemy in allEnemies)
+        if (allEnemies.Length > 0)
         {
-            float distanceToEnemy = (currentEnemy.transform.position - this.transform.position).sqrMagnitude;
-            if(distanceToEnemy < distanceToClosestEnemy)
+            foreach (Enemy currentEnemy in allEnemies)
             {
-                distanceToClosestEnemy = distanceToEnemy;
-                closestEnemy = currentEnemy;
+                float distanceToEnemy = (currentEnemy.transform.position - this.transform.position).sqrMagnitude;
+                if (distanceToEnemy < distanceToClosestEnemy)
+                {
+                    distanceToClosestEnemy = distanceToEnemy;
+                    closestEnemy = currentEnemy;
+                }
             }
+            if (transform.position.x > closestEnemy.transform.position.x)
+            {
+                transform.rotation = Quaternion.Euler(0, -180, 0);
+            }
+            else
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+            rb.AddForce((closestEnemy.transform.position - transform.position) * projectileForce, ForceMode2D.Impulse);
+            spellTimer = 0;
         }
-        if (transform.position.x > closestEnemy.transform.position.x)
-        {
-            transform.rotation = Quaternion.Euler(0, -180, 0);
-        }
-        else
-        {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-        }
-        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-        Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-        rb.AddForce((closestEnemy.transform.position-transform.position) * projectileForce, ForceMode2D.Impulse);
-        spellTimer = 0;
     }
 }
