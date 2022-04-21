@@ -152,6 +152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positiveDamageModifier: 2
   negativeDamageModifier: 0.5
+  areaDamageCooldown: 60
+  areaDamageTimer: 1
   enemyType: Earth
   enemyHP: 6
   hpIncreaseFactor: 30

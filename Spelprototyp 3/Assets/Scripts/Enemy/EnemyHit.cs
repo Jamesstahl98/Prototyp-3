@@ -6,6 +6,8 @@ public class EnemyHit : MonoBehaviour
 {
     public float positiveDamageModifier;
     public float negativeDamageModifier;
+    public float areaDamageCooldown;
+    public float areaDamageTimer = 1;
     public string enemyType;
 
     [SerializeField]
@@ -13,10 +15,14 @@ public class EnemyHit : MonoBehaviour
     [SerializeField]
     private float hpIncreaseFactor;
 
+    void FixedUpdate()
+    {
+        areaDamageTimer++;
+    }
+
     void Start()
     {
         enemyHP = Mathf.Round(enemyHP * (1 + (Time.time / hpIncreaseFactor)));
-        Debug.Log(enemyHP);
     }
     public void TakeDamage(float baseDamage, string damageType)
     {

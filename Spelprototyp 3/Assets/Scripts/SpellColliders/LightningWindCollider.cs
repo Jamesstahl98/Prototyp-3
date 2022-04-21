@@ -5,20 +5,20 @@ using UnityEngine;
 public class LightningWindCollider : MonoBehaviour
 {
     public float baseDamage;
-    public float spellHP;
 
     public string damageType;
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            collision.gameObject.GetComponent<EnemyHit>().TakeDamage(baseDamage, damageType);
-            spellHP -= 1;
+            var enemyHit = collision.gameObject.GetComponent<EnemyHit>();
 
-            if (spellHP <= 0)
+            if (enemyHit.areaDamageTimer > enemyHit.areaDamageCooldown)
             {
-                Destroy(gameObject);
+                Debug.Log("damage");
+                enemyHit.TakeDamage(baseDamage, damageType);
+                enemyHit.areaDamageTimer = 0;
             }
         }
     }
