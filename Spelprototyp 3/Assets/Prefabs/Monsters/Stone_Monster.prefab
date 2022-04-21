@@ -152,8 +152,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positiveDamageModifier: 2
   negativeDamageModifier: 0.5
-  enemyHP: 5
   enemyType: Earth
+  enemyHP: 6
+  hpIncreaseFactor: 30
 --- !u!114 &3738626305101204542
 MonoBehaviour:
   m_ObjectHideFlags: 0

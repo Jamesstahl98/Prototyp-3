@@ -6,10 +6,18 @@ public class EnemyHit : MonoBehaviour
 {
     public float positiveDamageModifier;
     public float negativeDamageModifier;
-    public float enemyHP;
-
     public string enemyType;
 
+    [SerializeField]
+    private float enemyHP;
+    [SerializeField]
+    private float hpIncreaseFactor;
+
+    void Start()
+    {
+        enemyHP = Mathf.Round(enemyHP * (1 + (Time.time / hpIncreaseFactor)));
+        Debug.Log(enemyHP);
+    }
     public void TakeDamage(float baseDamage, string damageType)
     {
         if((damageType == "Fire" && enemyType == "Wind") || (damageType == "Wind" && enemyType == "Earth") || (damageType == "Earth" && enemyType == "Lightning") || (damageType == "Lightning" && enemyType == "Water") || (damageType == "Water" && enemyType == "Fire"))

@@ -152,8 +152,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positiveDamageModifier: 2
   negativeDamageModifier: 0.5
-  enemyHP: 5
   enemyType: Fire
+  enemyHP: 5
+  hpIncreaseFactor: 30
 --- !u!114 &-6739469400686006733
 MonoBehaviour:
   m_ObjectHideFlags: 0

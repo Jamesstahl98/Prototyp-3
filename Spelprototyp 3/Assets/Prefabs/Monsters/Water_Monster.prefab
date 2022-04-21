@@ -177,8 +177,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positiveDamageModifier: 2
   negativeDamageModifier: 0.5
-  enemyHP: 5
   enemyType: Water
+  enemyHP: 5
+  hpIncreaseFactor: 30
 --- !u!114 &-6771229063294072439
 MonoBehaviour:
   m_ObjectHideFlags: 0
