@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2395202759652617002}
   - component: {fileID: 2969448363904111625}
   - component: {fileID: -3227361609930884206}
+  - component: {fileID: -1529484624917597421}
   m_Layer: 0
   m_Name: 'Wind_Monster '
   m_TagString: Enemy
@@ -167,3 +168,15 @@ MonoBehaviour:
   negativeDamageModifier: 0.5
   enemyHP: 5
   enemyType: Wind
+--- !u!114 &-1529484624917597421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2395202759652617169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc0882b630821044a527c490594bf82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

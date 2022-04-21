@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7032071176597837623}
   - component: {fileID: 7032071176597837616}
   - component: {fileID: -141846418912371413}
+  - component: {fileID: -6739469400686006733}
   m_Layer: 0
   m_Name: 'Fire_Monster '
   m_TagString: Enemy
@@ -153,3 +154,15 @@ MonoBehaviour:
   negativeDamageModifier: 0.5
   enemyHP: 5
   enemyType: Fire
+--- !u!114 &-6739469400686006733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7032071176597837771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc0882b630821044a527c490594bf82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
