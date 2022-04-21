@@ -15,17 +15,28 @@ public class EnemyHit : MonoBehaviour
     [SerializeField]
     private float hpIncreaseFactor;
 
+    private float hitTimer = 0;
+    private SpriteRenderer sr;
+
     void FixedUpdate()
     {
         areaDamageTimer++;
+        hitTimer++;
+        if(hitTimer >= 20)
+        {
+            sr.color = new Color(255f, 255f, 255f, 255f);
+        }
     }
 
     void Start()
     {
+        sr = gameObject.GetComponent<SpriteRenderer>();
         enemyHP = Mathf.Round(enemyHP * (1 + (Time.time / hpIncreaseFactor)));
     }
     public void TakeDamage(float baseDamage, string damageType)
     {
+        sr.color = new Color(255f, 0f, 0f, 255f);
+        hitTimer = 0;
         if((damageType == "Fire" && enemyType == "Wind") || (damageType == "Wind" && enemyType == "Earth") || (damageType == "Earth" && enemyType == "Lightning") || (damageType == "Lightning" && enemyType == "Water") || (damageType == "Water" && enemyType == "Fire"))
         {
             enemyHP = enemyHP - (baseDamage * positiveDamageModifier);

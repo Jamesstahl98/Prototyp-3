@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 8491438082782853377, guid: 39e6c7208cc127542bac1a78b6317557, type: 3}
   firePoint: {fileID: 5521671555802658226}
-  projectileForce: 8
+  projectileForce: 15
   spellCD: 3
   spellDuration: 10
 --- !u!1 &4677082904191682264

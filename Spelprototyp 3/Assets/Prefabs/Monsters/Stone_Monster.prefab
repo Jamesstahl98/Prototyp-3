@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 3
   spriteRenderer: {fileID: 432659355284286592}
 --- !u!70 &432659355284286594
 CapsuleCollider2D:

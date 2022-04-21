@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseDamage: 0
-  spellHP: 5
+  spellHP: 1000
   damageType: Fire
 --- !u!114 &6199474526081092493
 MonoBehaviour:
