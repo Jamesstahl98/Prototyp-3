@@ -5,6 +5,9 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject[] enemies;
+
+    [SerializeField]
+    private Vector2[] spawnPoints;
     // In seconds
     [SerializeField] private float interval = 2f;
     private float timer = 0f;
@@ -17,7 +20,7 @@ public class EnemySpawner : MonoBehaviour
         if (timer >= interval)
         {
             timer = 0f;
-            Instantiate(enemies[Random.Range(0, enemies.Length)], transform.position, transform.rotation);
+            Instantiate(enemies[Random.Range(0, enemies.Length)], spawnPoints[Random.Range(0, spawnPoints.Length)], transform.rotation);
         }
     }
 }
