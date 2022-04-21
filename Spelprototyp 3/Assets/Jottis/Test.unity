@@ -641,7 +641,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27fdfb9669fdf7c44ad4c82805dfa1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 432659355284286590, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+  enemies:
+  - {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+  - {fileID: 432659355284286590, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+  - {fileID: 3648816100939448524, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+  - {fileID: 2395202759652617169, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
   interval: 2
 --- !u!4 &620121862
 Transform:

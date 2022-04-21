@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;
     public GameObject[] enemies;
     // In seconds
     [SerializeField] private float interval = 2f;
@@ -18,7 +17,7 @@ public class EnemySpawner : MonoBehaviour
         if (timer >= interval)
         {
             timer = 0f;
-            Instantiate(enemies[Random.Range(0,enemies.Length)], transform.position, transform.rotation);
+            Instantiate(enemies[Random.Range(0, enemies.Length)], transform.position, transform.rotation);
         }
     }
 }
