@@ -10,6 +10,7 @@ TagManager:
   - Lightning
   - Water
   - Wind
+  - XpOrb50
   layers:
   - Default
   - TransparentFX
