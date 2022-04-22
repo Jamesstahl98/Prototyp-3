@@ -44,6 +44,13 @@ public class Shooting : MonoBehaviour
     public float waterTimer = 100f;
     public float windTimer = 100f;
 
+    public bool fireEnabled = true;
+    public bool earthEnabled = true;
+    public bool waterEnabled = true;
+    public bool windEnabled = true;
+    public bool lightningEnabled = true;
+    public bool arcaneEnabled = true;
+
     // Update is called once per frame
     void Update()
     {
@@ -53,31 +60,31 @@ public class Shooting : MonoBehaviour
         waterTimer += Time.deltaTime;
         windTimer += Time.deltaTime;
 
-        if (Input.GetKeyDown(fireButton) && fireTimer > fireCD)
+        if (Input.GetKeyDown(fireButton) && fireTimer > fireCD && fireEnabled == true)
         {
             ShootFire();
             fireCooldownUI.GetComponent<UISpellCooldowns>().UseSpell();
         }
 
-        if (Input.GetKeyDown(earthButton) && earthTimer > earthCD)
+        if (Input.GetKeyDown(earthButton) && earthTimer > earthCD && earthEnabled == true)
         {
             ShootEarth();
             earthCooldownUI.GetComponent<UISpellCooldowns>().UseSpell();
         }
 
-        if (Input.GetKeyDown(lightningButton) && lightningTimer > lightningCD)
+        if (Input.GetKeyDown(lightningButton) && lightningTimer > lightningCD && lightningEnabled == true)
         {
             ShootLightning();
             lightningCooldownUI.GetComponent<UISpellCooldowns>().UseSpell();
         }
 
-        if (Input.GetKeyDown(waterButton) && waterTimer > waterCD)
+        if (Input.GetKeyDown(waterButton) && waterTimer > waterCD && waterEnabled == true)
         {
             ShootWater();
             waterCooldownUI.GetComponent<UISpellCooldowns>().UseSpell();
         }
 
-        if (Input.GetKeyDown(windButton) && windTimer > windCD)
+        if (Input.GetKeyDown(windButton) && windTimer > windCD && windEnabled == true)
         {
             ShootWind();
             windCooldownUI.GetComponent<UISpellCooldowns>().UseSpell();
