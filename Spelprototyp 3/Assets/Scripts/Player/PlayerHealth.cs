@@ -8,6 +8,8 @@ public class PlayerHealth : MonoBehaviour
 
     private float damagedTimer = 30;
     private SpriteRenderer sr;
+    [SerializeField]
+    private GameObject deathScreen;
 
     void Start()
     {
@@ -35,7 +37,7 @@ public class PlayerHealth : MonoBehaviour
 
             if (playerHealth <= 0)
             {
-                Debug.Log("You died");
+                deathScreen.SetActive(true);
             }
         }
     }
