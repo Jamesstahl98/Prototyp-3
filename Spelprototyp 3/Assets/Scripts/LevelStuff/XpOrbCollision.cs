@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class XpOrbCollision : MonoBehaviour
 {
+   
 
-
-    void OnCollisionEnter2D(Collision2D coll)
+    public void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.name == "XpOrb")
+        if (coll.gameObject.tag == "XpOrb50")
         {
             Destroy(coll.gameObject);
-            this.GetComponent<LevelSystem>().AddExperience(1);
+            gameObject.GetComponent<LevelWork>().AddExperience(50);
         }
     }
 }
