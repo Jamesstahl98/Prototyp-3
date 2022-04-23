@@ -1,61 +1,84 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class LevelPowerups : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject[] powerUpBackgrounds;
-    private GameObject player;
-    public List<string> spellList = new List<string>();
+    public int listNumber;
+    public string listElement;
+    public GameObject powerUpParent;
+    public Image image;
+    public TextMeshProUGUI textObject;
 
-    public string listZeroElement;
-    public string listOneElement;
-    public string listTwoElement;
+    //Icons
+    [SerializeField]
+    private Sprite fireIcon;
+    [SerializeField]
+    private Sprite earthIcon;
+    [SerializeField]
+    private Sprite windIcon;
+    [SerializeField]
+    private Sprite waterIcon;
+    [SerializeField]
+    private Sprite lightningIcon;
+    [SerializeField]
+    private Sprite arcaneIcon;
+
+    private Button[] modifierButtons;
 
     void Start()
     {
-        player = GameObject.Find("Player");
+        if (listNumber == 0)
+        {
+            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[0];
+        }
+        else if (listNumber == 1)
+        {
+            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[1];
+        }
+        else if (listNumber == 2)
+        {
+            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[2];
+        }
+
+        if (listElement == "Fire")
+        {
+            image.sprite = fireIcon;
+        }
+        if (listElement == "Earth")
+        {
+            image.sprite = earthIcon;
+        }
+        if (listElement == "Wind")
+        {
+            image.sprite = windIcon;
+        }
+        if (listElement == "Water")
+        {
+            image.sprite = waterIcon;
+        }
+        if (listElement == "Wind")
+        {
+            image.sprite = windIcon;
+        }
+        if (listElement == "Lightning")
+        {
+            image.sprite = lightningIcon;
+        }
+        if (listElement == "Arcane")
+        {
+            image.sprite = arcaneIcon;
+        }
+        AddText();
     }
 
-    void Update()
+    void AddText()
     {
+
+        modifierButtons = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().modifierButtons;
+        var newButton = Instantiate(modifierButtons[Random.Range(0, modifierButtons.Length)], transform.position, transform.rotation);
+        newButton.transform.parent = gameObject.transform;
     }
-    public void GetPowerups()
-    {
-        foreach (GameObject background in powerUpBackgrounds)
-        {
-            background.SetActive(true);
-        }
-        if(player.GetComponent<Shooting>().fireEnabled == true)
-        {
-            spellList.Add("Fire");
-        }
-        if (player.GetComponent<Shooting>().earthEnabled == true)
-        {
-            spellList.Add("Earth");
-        }
-        if (player.GetComponent<Shooting>().waterEnabled == true)
-        {
-            spellList.Add("Water");
-        }
-        if (player.GetComponent<Shooting>().windEnabled == true)
-        {
-            spellList.Add("Wind");
-        }
-        if (player.GetComponent<Shooting>().lightningEnabled == true)
-        {
-            spellList.Add("Lightning");
-        }
-        if (player.GetComponent<Shooting>().arcaneEnabled == true)
-        {
-            spellList.Add("Arcane");
-        }
-
-        listZeroElement = spellList[0];
-        listOneElement = spellList[1];
-        listTwoElement = spellList[2];
-
-    }
-
 }
