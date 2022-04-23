@@ -7,7 +7,7 @@ public class EarthCollider : MonoBehaviour
     public GameObject plantPrefab;
 
     private float baseDamage;
-    public float spellHP;
+    private int spellHP;
 
     public string damageType;
 
@@ -17,6 +17,7 @@ public class EarthCollider : MonoBehaviour
     {
         player = GameObject.Find("Player");
         baseDamage = player.GetComponent<Shooting>().earthDamage;
+        spellHP = player.GetComponent<Shooting>().fireHP;
     }
 
     void OnTriggerEnter2D(Collider2D collision)

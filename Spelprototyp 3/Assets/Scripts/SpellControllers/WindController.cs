@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class WindController : MonoBehaviour
 {
-    public float spellDuration;
-
+    private float spellDuration;
     private float startTime;
     private float spellTimer;
-    
     private GameObject player;
+
     void Start()
     {
         startTime = Time.time;
         player = GameObject.Find("Player");
+        spellDuration = player.GetComponent<Shooting>().windDuration;
     }
 
     void Update()

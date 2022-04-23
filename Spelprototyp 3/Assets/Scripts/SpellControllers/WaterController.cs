@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class WaterController : MonoBehaviour
 {
-    public float spellDuration;
-
+    private float spellDuration;
     private float startTime;
     private float spellTimer;
+    private GameObject player;
 
     void Start()
     {
+        player = GameObject.Find("Player");
+        spellDuration = player.GetComponent<Shooting>().windDuration;
         startTime = Time.time;
     }
 

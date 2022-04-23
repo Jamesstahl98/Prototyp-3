@@ -9,7 +9,6 @@ public class LightningCollider : MonoBehaviour
 
     public float cloudForce = 3f;
     private float baseDamage;
-    public float spellHP;
 
     public string damageType;
 
@@ -26,12 +25,6 @@ public class LightningCollider : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<EnemyHit>().TakeDamage(baseDamage, damageType);
-            spellHP -= 1;
-
-            if (spellHP <= 0)
-            {
-                Destroy(gameObject);
-            }
         }
 
         if (collision.gameObject.tag == "Water")

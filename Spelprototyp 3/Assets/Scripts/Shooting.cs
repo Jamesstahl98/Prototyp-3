@@ -31,7 +31,11 @@ public class Shooting : MonoBehaviour
 
     public float fireForce = 20f;
     public float earthForce = 10f;
-    
+    public float windForce = 10f;
+    public float waterForce = 10f;
+    public float lightningForce = 10f;
+    public float arcaneForce = 10f;
+
     public float fireCD;
     public float earthCD;
     public float lightningCD;
@@ -45,6 +49,27 @@ public class Shooting : MonoBehaviour
     public float waterDamage;
     public float windDamage;
     public float arcaneDamage;
+
+    public float fireSize;
+    public float earthSize;
+    public float lightningSize;
+    public float waterSize;
+    public float windSize;
+    public float arcaneSize;
+
+    public int fireHP;
+    public int earthHP;
+    public int lightningHP;
+    public int waterHP;
+    public int windHP;
+    public int arcaneHP;
+
+    public float fireDuration;
+    public float earthDuration;
+    public float windDuration;
+    public float waterDuration;
+    public float lightningDuration;
+    public float arcaneDuration;
 
     public float fireTimer = 100f;
     public float earthTimer = 100f;
@@ -185,6 +210,118 @@ public class Shooting : MonoBehaviour
         else if (element == "Arcane")
         {
             arcaneDamage = arcaneDamage * amount;
+        }
+    }
+
+    public void IncreaseSpeed(string element, float amount)
+    {
+        if (element == "Fire")
+        {
+            fireForce = fireForce * amount;
+        }
+        else if (element == "Earth")
+        {
+            earthForce = earthForce * amount;
+        }
+        else if (element == "Wind")
+        {
+            windForce = windForce * amount;
+        }
+        else if (element == "Water")
+        {
+            waterForce = waterForce * amount;
+        }
+        else if (element == "Lightning")
+        {
+            lightningForce = lightningForce * amount;
+        }
+        else if (element == "Arcane")
+        {
+            arcaneForce = arcaneForce * amount;
+        }
+    }
+
+    public void IncreaseSize(string element, float amount)
+    {
+        if (element == "Fire")
+        {
+            fireSize = fireSize * amount;
+        }
+        else if (element == "Earth")
+        {
+            earthSize = earthSize * amount;
+        }
+        else if (element == "Wind")
+        {
+            windSize = windSize * amount;
+        }
+        else if (element == "Water")
+        {
+            waterSize = waterSize * amount;
+        }
+        else if (element == "Lightning")
+        {
+            lightningSize = lightningSize * amount;
+        }
+        else if (element == "Arcane")
+        {
+            arcaneSize = arcaneSize * amount;
+        }
+    }
+
+    public void IncreaseDuration(string element, float amount)
+    {
+        if (element == "Fire")
+        {
+            fireDuration = fireDuration * amount;
+        }
+        else if (element == "Earth")
+        {
+            earthDuration = earthDuration * amount;
+        }
+        else if (element == "Wind")
+        {
+            windDuration = windDuration * amount;
+        }
+        else if (element == "Water")
+        {
+            waterDuration = waterDuration * amount;
+        }
+        else if (element == "Lightning")
+        {
+            lightningDuration = lightningDuration * amount;
+        }
+        else if (element == "Arcane")
+        {
+            arcaneDuration = arcaneDuration * amount;
+        }
+    }
+
+    public void IncreasePierce(string element, int amount)
+    {
+        if (element == "Fire")
+        {
+            fireHP = fireHP + amount;
+        }
+        else if (element == "Earth")
+        {
+            earthHP = earthHP + amount;
+        }
+        else if (element == "Wind")
+        {
+            windHP = windHP + amount;
+        }
+        else if (element == "Water")
+        {
+            waterHP = waterHP + amount;
+        }
+        else if (element == "Lightning")
+        {
+            lightningHP = lightningHP + amount;
+        }
+        else if (element == "Arcane")
+        {
+            arcaneHP = arcaneHP + amount;
         }
     }
 }
