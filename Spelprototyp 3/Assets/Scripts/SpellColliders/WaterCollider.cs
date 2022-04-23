@@ -4,10 +4,18 @@ using UnityEngine;
 
 public class WaterCollider : MonoBehaviour
 {
-    public float baseDamage;
+    private float baseDamage;
     public float spellHP;
 
     public string damageType;
+
+    private GameObject player;
+
+    void Start()
+    {
+        player = GameObject.Find("Player");
+        baseDamage = player.GetComponent<Shooting>().waterDamage;
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {

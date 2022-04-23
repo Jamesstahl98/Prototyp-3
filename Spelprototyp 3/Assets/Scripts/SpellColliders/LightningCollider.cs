@@ -8,10 +8,18 @@ public class LightningCollider : MonoBehaviour
     public GameObject cloudPrefab;
 
     public float cloudForce = 3f;
-    public float baseDamage;
+    private float baseDamage;
     public float spellHP;
 
     public string damageType;
+
+    private GameObject player;
+
+    void Start()
+    {
+        player = GameObject.Find("Player");
+        baseDamage = player.GetComponent<Shooting>().lightningDamage;
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {

@@ -11,10 +11,6 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
     private GameObject player;
     public List<string> spellList = new List<string>();
 
-    public string listZeroElement;
-    public string listOneElement;
-    public string listTwoElement;
-
     public Button[] modifierButtons;
 
     void Start()
@@ -56,11 +52,6 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         {
             spellList.Add("Arcane");
         }
-
-        listZeroElement = spellList[0];
-        listOneElement = spellList[1];
-        listTwoElement = spellList[2];
-
     }
 
 }

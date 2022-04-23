@@ -8,10 +8,18 @@ public class FireCollider : MonoBehaviour
     public GameObject fireTornadoPrefab;
 
     public float magmaForce = 2f;
-    public float baseDamage;
+    private float baseDamage;
     public float spellHP;
 
     public string damageType;
+
+    private GameObject player;
+
+    void Start()
+    {
+        player = GameObject.Find("Player");
+        baseDamage = player.GetComponent<Shooting>().fireDamage;
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {

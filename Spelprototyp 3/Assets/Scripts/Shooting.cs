@@ -37,7 +37,15 @@ public class Shooting : MonoBehaviour
     public float lightningCD;
     public float waterCD;
     public float windCD;
-    
+    public float arcaneCD;
+
+    public float fireDamage;
+    public float earthDamage;
+    public float lightningDamage;
+    public float waterDamage;
+    public float windDamage;
+    public float arcaneDamage;
+
     public float fireTimer = 100f;
     public float earthTimer = 100f;
     public float lightningTimer = 100f;
@@ -123,5 +131,60 @@ public class Shooting : MonoBehaviour
     {
         GameObject windCircle = Instantiate(windPrefab, firePoint.position, firePoint.rotation);
         windTimer = 0;
+    }
+    public void ReduceCD(string element, float amount)
+    {
+        if (element == "Fire")
+        {
+            fireCD = fireCD * amount;
+        }
+        else if (element == "Earth")
+        {
+            earthCD = earthCD * amount;
+        }
+        else if (element == "Wind")
+        {
+            windCD = windCD * amount;
+        }
+        else if (element == "Water")
+        {
+            waterCD = waterCD * amount;
+        }
+        else if (element == "Lightning")
+        {
+            lightningCD = lightningCD * amount;
+        }
+        else if (element == "Arcane")
+        {
+            arcaneCD = arcaneCD * amount;
+        }
+    }
+
+    public void IncreaseDamage(string element, float amount)
+    {
+        if (element == "Fire")
+        {
+            fireDamage = fireDamage * amount;
+        }
+        else if (element == "Earth")
+        {
+            earthDamage = earthDamage * amount;
+        }
+        else if (element == "Wind")
+        {
+            windDamage = windDamage * amount;
+        }
+        else if (element == "Water")
+        {
+            waterDamage = waterDamage * amount;
+        }
+        else if (element == "Lightning")
+        {
+            lightningDamage = lightningDamage * amount;
+        }
+        else if (element == "Arcane")
+        {
+            arcaneDamage = arcaneDamage * amount;
+        }
     }
 }
