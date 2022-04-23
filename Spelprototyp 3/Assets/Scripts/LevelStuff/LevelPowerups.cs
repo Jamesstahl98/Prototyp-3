@@ -7,12 +7,15 @@ public class LevelPowerups : MonoBehaviour
     [SerializeField]
     private GameObject[] powerUpBackgrounds;
     private GameObject player;
-    private List<string> spellList = new List<string>();
+    public List<string> spellList = new List<string>();
+
+    public string listZeroElement;
+    public string listOneElement;
+    public string listTwoElement;
 
     void Start()
     {
         player = GameObject.Find("Player");
-        GetPowerups();
     }
 
     void Update()
@@ -49,26 +52,9 @@ public class LevelPowerups : MonoBehaviour
             spellList.Add("Arcane");
         }
 
-        if(spellList[0] == "Fire")
-        {
-
-        }
-        else if (spellList[0] == "Earth")
-        {
-
-        }
-        else if (spellList[0] == "Earth")
-        {
-
-        }
-        else if (spellList[0] == "Earth")
-        {
-
-        }
-        else if (spellList[0] == "Earth")
-        {
-
-        }
+        listZeroElement = spellList[0];
+        listOneElement = spellList[1];
+        listTwoElement = spellList[2];
 
     }
 
