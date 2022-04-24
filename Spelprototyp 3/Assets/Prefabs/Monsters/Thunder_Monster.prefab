@@ -168,7 +168,7 @@ MonoBehaviour:
   negativeDamageModifier: 0.5
   areaDamageCooldown: 60
   areaDamageTimer: 1
-  enemyType: Thunder
+  enemyType: Lightning
   enemyHP: 5
   hpIncreaseFactor: 30
 --- !u!95 &-300008884266350132
