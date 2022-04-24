@@ -11,18 +11,23 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
     private GameObject player;
     public List<string> spellList = new List<string>();
 
+    public List<GameObject> prefabList = new List<GameObject>();
+
     public Button[] modifierButtons;
 
     void Start()
     {
         player = GameObject.Find("Player");
+        GetPowerups();
     }
 
     public void GetPowerups()
     {
         foreach (GameObject background in powerUpBackgrounds)
         {
-            background.SetActive(true);
+            var tempObject = Instantiate(background, this.transform, false);
+            tempObject.transform.parent = transform;
+            prefabList.Add(tempObject);
         }
         if(player.GetComponent<Shooting>().fireEnabled == true)
         {
@@ -48,13 +53,14 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         {
             spellList.Add("Arcane");
         }
+        
     }
 
     public void RemovePowerups()
     {
-        foreach (GameObject background in powerUpBackgrounds)
+        foreach (GameObject background in prefabList)
         {
-            background.SetActive(false);
+            Destroy(background);
         }
     }
 

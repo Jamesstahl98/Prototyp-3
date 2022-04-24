@@ -19,6 +19,6 @@ public class PowerUpCD : MonoBehaviour
     {
         player.GetComponent<Shooting>().ReduceCD(element, 0.8f);
         powerUpParent.transform.parent.gameObject.GetComponent<LevelPowerupsSpellIdentifier>().RemovePowerups();
-        Destroy(gameObject.transform.parent.gameObject);
+        Destroy(gameObject.transform.parent.parent.gameObject);
     }
 }

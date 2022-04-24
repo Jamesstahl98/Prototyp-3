@@ -29,7 +29,7 @@ public class LevelPowerups : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(listNumber);
+        powerUpParent = transform.parent.gameObject;
         if (listNumber == 0)
         {
             listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[0];
@@ -76,7 +76,6 @@ public class LevelPowerups : MonoBehaviour
 
     void AddText()
     {
-
         modifierButtons = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().modifierButtons;
         var newButton = Instantiate(modifierButtons[Random.Range(0, modifierButtons.Length)], transform.position, transform.rotation);
         newButton.transform.parent = gameObject.transform;

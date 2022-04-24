@@ -20,7 +20,7 @@ public class PowerUpPierce : MonoBehaviour
     {
         player.GetComponent<Shooting>().IncreasePierce(element, 1);
         powerUpParent.transform.parent.gameObject.GetComponent<LevelPowerupsSpellIdentifier>().RemovePowerups();
-        Destroy(gameObject.transform.parent.gameObject);
+        Destroy(gameObject.transform.parent.parent.gameObject);
     }
 }
 
