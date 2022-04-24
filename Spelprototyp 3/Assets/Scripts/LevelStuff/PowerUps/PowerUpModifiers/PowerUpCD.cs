@@ -18,5 +18,6 @@ public class PowerUpCD : MonoBehaviour
     public void CD20()
     {
         player.GetComponent<Shooting>().ReduceCD(element, 0.8f);
+        powerUpParent.transform.parent.gameObject.GetComponent<LevelPowerupsSpellIdentifier>().RemovePowerups();
     }
 }

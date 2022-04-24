@@ -18,6 +18,7 @@ public class PowerUpSize : MonoBehaviour
     public void Size30()
     {
         player.GetComponent<Shooting>().IncreaseSize(element, 1.3f);
+        powerUpParent.transform.parent.gameObject.GetComponent<LevelPowerupsSpellIdentifier>().RemovePowerups();
     }
 }
 

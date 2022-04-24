@@ -50,4 +50,12 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         }
     }
 
+    public void RemovePowerups()
+    {
+        foreach (GameObject background in powerUpBackgrounds)
+        {
+            background.SetActive(false);
+        }
+    }
+
 }

@@ -18,5 +18,6 @@ public class PowerUpDamage : MonoBehaviour
     public void Damage30()
     {
         player.GetComponent<Shooting>().IncreaseDamage(element, 1.3f);
+        powerUpParent.transform.parent.gameObject.GetComponent<LevelPowerupsSpellIdentifier>().RemovePowerups();
     }
 }
