@@ -23,6 +23,7 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
 
     public void GetPowerups()
     {
+        Time.timeScale = 0;
         foreach (GameObject background in powerUpBackgrounds)
         {
             var tempObject = Instantiate(background, this.transform, false);
@@ -53,7 +54,7 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         {
             spellList.Add("Arcane");
         }
-        
+
     }
 
     public void RemovePowerups()
@@ -62,6 +63,7 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         {
             Destroy(background);
         }
+        Time.timeScale = 1;
     }
 
 }

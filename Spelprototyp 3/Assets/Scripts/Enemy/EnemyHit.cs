@@ -59,7 +59,7 @@ public class EnemyHit : MonoBehaviour
         if (enemyHP <= 0)
         {
             var dropNumber = Random.Range(1, 100);
-            Debug.Log(dropNumber);
+
             if (dropNumber <= xpDropRate)
             {
                 Instantiate(xpPrefab, gameObject.transform.position, Quaternion.identity);
