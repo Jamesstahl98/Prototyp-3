@@ -19,6 +19,7 @@ public class PowerUpSpeed : MonoBehaviour
     {
         player.GetComponent<Shooting>().IncreaseSpeed(element, 1.3f);
         powerUpParent.transform.parent.gameObject.GetComponent<LevelPowerupsSpellIdentifier>().RemovePowerups();
+        Destroy(gameObject.transform.parent.gameObject);
     }
 }
 

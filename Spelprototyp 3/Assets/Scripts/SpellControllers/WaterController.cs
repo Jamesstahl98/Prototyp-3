@@ -12,7 +12,7 @@ public class WaterController : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        spellDuration = player.GetComponent<Shooting>().windDuration;
+        spellDuration = player.GetComponent<Shooting>().waterDuration;
         startTime = Time.time;
     }
 

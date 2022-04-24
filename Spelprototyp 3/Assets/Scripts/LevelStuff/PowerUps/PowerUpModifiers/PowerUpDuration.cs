@@ -19,5 +19,6 @@ public class PowerUpDuration : MonoBehaviour
     {
         player.GetComponent<Shooting>().IncreaseDuration(element, 1.3f);
         powerUpParent.transform.parent.gameObject.GetComponent<LevelPowerupsSpellIdentifier>().RemovePowerups();
+        Destroy(gameObject.transform.parent.gameObject);
     }
 }

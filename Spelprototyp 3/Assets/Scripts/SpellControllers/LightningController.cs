@@ -12,7 +12,7 @@ public class LightningController : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        spellDuration = player.GetComponent<Shooting>().windDuration;
+        spellDuration = player.GetComponent<Shooting>().lightningDuration;
         startTime = Time.time;
     }
 
