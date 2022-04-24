@@ -16,7 +16,6 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        GetPowerups();
     }
 
     public void GetPowerups()
