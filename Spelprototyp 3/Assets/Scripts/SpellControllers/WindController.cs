@@ -5,6 +5,7 @@ using UnityEngine;
 public class WindController : MonoBehaviour
 {
     private float spellDuration;
+    private float size;
     private float startTime;
     private float spellTimer;
     private GameObject player;
@@ -14,6 +15,8 @@ public class WindController : MonoBehaviour
         startTime = Time.time;
         player = GameObject.Find("Player");
         spellDuration = player.GetComponent<Shooting>().windDuration;
+        size = player.GetComponent<Shooting>().windSize;
+        transform.localScale = new Vector3(size, size, size);
     }
 
     void Update()

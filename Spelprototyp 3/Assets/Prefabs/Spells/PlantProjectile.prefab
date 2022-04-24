@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8491438082782853376}
   - component: {fileID: 5612632939090054026}
   - component: {fileID: 2379343458349885865}
+  - component: {fileID: 1716277159965423849}
   m_Layer: 0
   m_Name: PlantProjectile
   m_TagString: Fire
@@ -144,6 +145,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d91cafb79a9e4d4d98bdf09499bb579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseDamage: 3
-  spellHP: 1
   damageType: Earth
+--- !u!114 &1716277159965423849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8491438082782853377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a79b5e134c4ac45bce6b7c8eb2e29c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

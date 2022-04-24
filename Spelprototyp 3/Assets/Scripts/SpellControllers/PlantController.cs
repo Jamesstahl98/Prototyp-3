@@ -9,6 +9,7 @@ public class PlantController : MonoBehaviour
     public GameObject player;
     public float projectileForce;
     private float spellCD;
+    private float size;
     private float spellTimer = 2f;
     private float spellDuration;
     private float startTime;
