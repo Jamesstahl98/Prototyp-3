@@ -96,4 +96,37 @@ public class UISpellCooldowns : MonoBehaviour
             cooldownTimer = cooldownTime;
         }
     }  
+
+    public void CooldownUpgraded()
+    {
+        textCooldown.gameObject.SetActive(false);
+        imageCooldown.fillAmount = 0.0f;
+
+        GameObject player = GameObject.Find("Player");
+
+        if(spellType == "Fire")
+        {
+            cooldownTime = player.GetComponent<Shooting>().fireCD;
+        }
+
+        else if (spellType == "Earth")
+        {
+            cooldownTime = player.GetComponent<Shooting>().earthCD;
+        }
+
+        else if (spellType == "Water")
+        {
+            cooldownTime = player.GetComponent<Shooting>().waterCD;
+        }
+
+        else if (spellType == "Wind")
+        {
+            cooldownTime = player.GetComponent<Shooting>().windCD;
+        }
+
+        else if (spellType == "Lightning")
+        {
+            cooldownTime = player.GetComponent<Shooting>().lightningCD;
+        }
+    }
 }
