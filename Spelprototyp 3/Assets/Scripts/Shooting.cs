@@ -159,6 +159,7 @@ public class Shooting : MonoBehaviour
     }
     public void ReduceCD(string element, float amount)
     {
+        Debug.Log("cd");
         if (element == "Fire")
         {
             fireCD = fireCD * amount;
@@ -187,6 +188,7 @@ public class Shooting : MonoBehaviour
 
     public void IncreaseDamage(string element, float amount)
     {
+        Debug.Log("dmg");
         if (element == "Fire")
         {
             fireDamage = fireDamage * amount;
@@ -215,6 +217,7 @@ public class Shooting : MonoBehaviour
 
     public void IncreaseSpeed(string element, float amount)
     {
+        Debug.Log("speed");
         if (element == "Fire")
         {
             fireForce = fireForce * amount;
@@ -243,6 +246,7 @@ public class Shooting : MonoBehaviour
 
     public void IncreaseSize(string element, float amount)
     {
+        Debug.Log("size");
         if (element == "Fire")
         {
             fireSize = fireSize * amount;
@@ -271,6 +275,7 @@ public class Shooting : MonoBehaviour
 
     public void IncreaseDuration(string element, float amount)
     {
+        Debug.Log("duration");
         if (element == "Fire")
         {
             fireDuration = fireDuration * amount;
@@ -299,6 +304,7 @@ public class Shooting : MonoBehaviour
 
     public void IncreasePierce(string element, int amount)
     {
+        Debug.Log("pierce");
         if (element == "Fire")
         {
             fireHP = fireHP + amount;

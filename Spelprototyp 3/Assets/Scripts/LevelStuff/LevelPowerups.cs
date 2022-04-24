@@ -10,7 +10,6 @@ public class LevelPowerups : MonoBehaviour
     public string listElement;
     public GameObject powerUpParent;
     public Image image;
-    public TextMeshProUGUI textObject;
 
     //Icons
     [SerializeField]
@@ -30,6 +29,7 @@ public class LevelPowerups : MonoBehaviour
 
     void Start()
     {
+        Debug.Log(listNumber);
         if (listNumber == 0)
         {
             listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[0];

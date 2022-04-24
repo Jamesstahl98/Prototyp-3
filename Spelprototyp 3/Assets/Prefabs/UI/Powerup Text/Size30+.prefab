@@ -120,7 +120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5576542213435566171}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3556676378256673252}
+        m_TargetAssemblyTypeName: PowerUpSize, Assembly-CSharp
+        m_MethodName: Size30
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &9199754807058621446
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,6 +144,7 @@ GameObject:
   - component: {fileID: 780386636180767548}
   - component: {fileID: 5941695748995195217}
   - component: {fileID: 855649809513406227}
+  - component: {fileID: 3556676378256673252}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -255,3 +268,15 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3556676378256673252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9199754807058621446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5410d9d2a456c45bba390ddd6f4619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

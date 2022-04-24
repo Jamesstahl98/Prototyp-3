@@ -19,9 +19,6 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         GetPowerups();
     }
 
-    void Update()
-    {
-    }
     public void GetPowerups()
     {
         foreach (GameObject background in powerUpBackgrounds)
