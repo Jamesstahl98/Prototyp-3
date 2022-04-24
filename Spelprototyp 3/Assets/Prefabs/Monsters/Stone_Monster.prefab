@@ -157,6 +157,8 @@ MonoBehaviour:
   enemyType: Earth
   enemyHP: 6
   hpIncreaseFactor: 30
+  xpDropRate: 25
+  xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
 --- !u!114 &3738626305101204542
 MonoBehaviour:
   m_ObjectHideFlags: 0

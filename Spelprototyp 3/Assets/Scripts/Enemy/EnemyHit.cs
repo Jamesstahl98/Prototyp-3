@@ -14,6 +14,10 @@ public class EnemyHit : MonoBehaviour
     private float enemyHP;
     [SerializeField]
     private float hpIncreaseFactor;
+    [SerializeField]
+    private float xpDropRate;
+    [SerializeField]
+    private GameObject xpPrefab;
 
     private float hitTimer = 0;
     private SpriteRenderer sr;
@@ -54,6 +58,12 @@ public class EnemyHit : MonoBehaviour
 
         if (enemyHP <= 0)
         {
+            var dropNumber = Random.Range(1, 100);
+            Debug.Log(dropNumber);
+            if (dropNumber <= xpDropRate)
+            {
+                Instantiate(xpPrefab, gameObject.transform.position, Quaternion.identity);
+            }
             Destroy(gameObject);
         }
     }
