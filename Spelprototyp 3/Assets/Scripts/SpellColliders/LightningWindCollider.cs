@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class LightningWindCollider : MonoBehaviour
 {
-    public float baseDamage;
-
+    private float baseDamage;
     public string damageType;
+    private GameObject player;
+
+    void Start()
+    {
+        player = GameObject.Find("Player");
+        baseDamage = (player.GetComponent<Shooting>().lightningDamage + player.GetComponent<Shooting>().windDamage) / 1.5f;
+    }
 
     void OnTriggerStay2D(Collider2D collision)
     {
@@ -16,7 +22,6 @@ public class LightningWindCollider : MonoBehaviour
 
             if (enemyHit.areaDamageTimer > enemyHit.areaDamageCooldown)
             {
-                Debug.Log("damage");
                 enemyHit.TakeDamage(baseDamage, damageType);
                 enemyHit.areaDamageTimer = 0;
             }

@@ -7,7 +7,12 @@ public class LevelWork : MonoBehaviour
     public int Level = 0;
     public int Xp = 0;
     public int XpToNextLevel = 100;
-        
+    public GameObject levelText;
+
+    void Start()
+    {
+        levelText = GameObject.Find("LevelWindow");
+    }
     // Update is called once per frame
     public void AddExperience(int amount)
     {
@@ -18,7 +23,7 @@ public class LevelWork : MonoBehaviour
             XpToNextLevel += 20;
             Level += 1;
             Debug.Log(Level);
-            //levelText.GetComponent<LevelText>().SetLevelNumber(Level);
+            levelText.GetComponent<LevelText>().SetLevelNumber(Level);
             gameObject.GetComponent<LevelPowerupsSpellIdentifier>().GetPowerups();
         }
 

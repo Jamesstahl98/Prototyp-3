@@ -10,6 +10,7 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
     private GameObject[] powerUpBackgrounds;
     private GameObject player;
     public List<string> spellList = new List<string>();
+    public List<string> spellListFinal = new List<string>();
 
     public List<GameObject> prefabList = new List<GameObject>();
 
@@ -55,6 +56,13 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
             spellList.Add("Arcane");
         }
 
+        for (int i = 0; i < spellList.Count; i++)
+        {
+            string temp = spellList[i];
+            int randomIndex = Random.Range(i, spellList.Count);
+            spellList[i] = spellList[randomIndex];
+            spellList[randomIndex] = temp;
+        }
     }
 
     public void RemovePowerups()

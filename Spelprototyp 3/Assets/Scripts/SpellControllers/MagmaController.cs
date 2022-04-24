@@ -5,12 +5,14 @@ using UnityEngine;
 public class MagmaController : MonoBehaviour
 {
     public float spellDuration;
-
     private float startTime;
     private float spellTimer;
+    private GameObject player;
 
     void Start()
     {
+        player = GameObject.Find("Player");
+        spellDuration = (player.GetComponent<Shooting>().fireDuration + player.GetComponent<Shooting>().earthDuration) * 0.5f;
         startTime = Time.time;
     }
 

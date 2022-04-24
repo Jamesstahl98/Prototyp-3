@@ -10,10 +10,11 @@ public class LevelText : MonoBehaviour
     void Start()
     {
         levelText = transform.Find("levelText").GetComponent<Text>();
+        levelText.text = "LEVEL\n" + 1;
     }
 
    
-    private void SetLevelNumber(int levelNumber)
+    public void SetLevelNumber(int levelNumber)
     {
         levelText.text = "LEVEL\n" + (levelNumber + 1);
     }

@@ -6,20 +6,20 @@ public class PlantController : MonoBehaviour
 {
     public GameObject projectilePrefab;
     public Transform firePoint;
-
+    public GameObject player;
     public float projectileForce;
-    public float spellCD;
-
+    private float spellCD;
     private float spellTimer = 2f;
-
-    public float spellDuration;
-
+    private float spellDuration;
     private float startTime;
     private float plantTimer;
 
     void Start()
     {
+        player = GameObject.Find("Player");
         startTime = Time.time;
+        spellCD = (player.GetComponent<Shooting>().earthCD + player.GetComponent<Shooting>().waterCD) / 4f;
+        spellDuration = (player.GetComponent<Shooting>().earthDuration + (player.GetComponent<Shooting>().waterDuration * 5f));
     }
 
     void Update()

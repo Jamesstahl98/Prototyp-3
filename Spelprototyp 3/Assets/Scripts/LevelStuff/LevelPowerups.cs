@@ -8,7 +8,7 @@ public class LevelPowerups : MonoBehaviour
 {
     public int listNumber;
     public string listElement;
-    public GameObject powerUpParent;
+    private GameObject powerUpParent;
     public Image image;
 
     //Icons

@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class FireWindController : MonoBehaviour
 {
-    public float spellDuration;
-
+    private float spellDuration;
     private float startTime;
     private float spellTimer;
-
     private GameObject player;
 
     void Start()
     {
         startTime = Time.time;
         player = GameObject.Find("Player");
+        spellDuration = (player.GetComponent<Shooting>().fireDuration + player.GetComponent<Shooting>().windDuration) * 0.5f;
     }
 
     void Update()
