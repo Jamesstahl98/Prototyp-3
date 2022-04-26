@@ -60,7 +60,9 @@ GameObject:
   - component: {fileID: 579180388450172019}
   - component: {fileID: 7579117314340687071}
   - component: {fileID: 1205728281657632205}
-  - component: {fileID: 3096964154134423958}
+  - component: {fileID: 6472037865375890777}
+  - component: {fileID: 6274456273181944187}
+  - component: {fileID: 289298974432824624}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -77,7 +79,7 @@ Transform:
   m_GameObject: {fileID: 1495602897289010388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 3161549265388057752}
   m_Father: {fileID: 0}
@@ -144,7 +146,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: 27e947903de2a814aa22a8492dbdd00c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e030f61a2fafc24a919f4dc9d3b4738, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -200,16 +202,51 @@ MonoBehaviour:
   arcanePrefab: {fileID: 7350997697358587486, guid: 5ac94f0b828c4dc4f9f3c56b0ccc1dfb, type: 3}
   fireForce: 20
   earthForce: 10
-  fireCD: 0
-  earthCD: 0
-  lightningCD: 0
-  waterCD: 0
-  windCD: 0
+  windForce: 10
+  waterForce: 10
+  lightningForce: 10
+  arcaneForce: 10
+  fireCD: 5
+  earthCD: 7
+  lightningCD: 4
+  waterCD: 4
+  windCD: 10
+  arcaneCD: 5
+  fireDamage: 4
+  earthDamage: 4
+  lightningDamage: 2
+  waterDamage: 2
+  windDamage: 4
+  arcaneDamage: 2
+  fireSize: 6
+  earthSize: 1
+  lightningSize: 1
+  waterSize: 1
+  windSize: 1.6544
+  arcaneSize: 1
+  fireHP: 3
+  earthHP: 3
+  lightningHP: 3
+  waterHP: 3
+  windHP: 3
+  arcaneHP: 0
+  fireDuration: 5
+  earthDuration: 5
+  windDuration: 5
+  waterDuration: 1
+  lightningDuration: 1
+  arcaneDuration: 5
   fireTimer: 100
   earthTimer: 100
   lightningTimer: 100
   waterTimer: 100
   windTimer: 100
+  fireEnabled: 1
+  earthEnabled: 1
+  waterEnabled: 1
+  windEnabled: 1
+  lightningEnabled: 1
+  arcaneEnabled: 1
 --- !u!114 &1205728281657632205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +259,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 218e619753845894d820d8609ce44d14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3096964154134423958
+  levelUpObject: {fileID: 0}
+--- !u!61 &6472037865375890777
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495602897289010388}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.029209733, y: -0.408938}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6837051, y: 1.742124}
+  m_EdgeRadius: 0
+--- !u!114 &6274456273181944187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,9 +295,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1495602897289010388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c679438bca40f24d9e7d6e7181f5a07, type: 3}
+  m_Script: {fileID: 11500000, guid: f76b41151c4049f4b8d313bc7b87f264, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: 10
+  deathScreen: {fileID: 0}
+--- !u!114 &289298974432824624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495602897289010388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1181220922ef1824a97ae2dc11847cc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spells:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &7053765880611602174
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,8 +425,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7832929859177262885}
   m_LocalRotation: {x: -0, y: -0, z: -0.9392877, w: 0.34313062}
-  m_LocalPosition: {x: 0.36, y: 0.029999971, z: 0.06431629}
-  m_LocalScale: {x: -1.2902328, y: 1.2918452, z: 1}
+  m_LocalPosition: {x: -0.092, y: -0.358, z: 0.06431629}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1}
   m_Children: []
   m_Father: {fileID: 3161549265388057752}
   m_RootOrder: 0
@@ -386,8 +470,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5e42b82ab4106774f8e108cdd9f29ab4, type: 3}
+  m_SortingOrder: 99
+  m_Sprite: {fileID: 21300000, guid: 0eeaa97829878114e85a1f9b1af238ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -422,7 +506,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8468590159275093794}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.38, y: 0.3, z: 0.06431629}
+  m_LocalPosition: {x: 0.087, y: -0.641, z: 0.06431629}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8187295502005854714}
