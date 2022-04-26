@@ -42,7 +42,7 @@ public class SpellSelector : MonoBehaviour
             spells[activeSpellOne].GetComponent<UISpellCooldowns>().ActivateRight();
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetAxis("Mouse ScrollWheel") > 0f)
         {
             var temp0 = spells[0];
             var temp1 = spells[1];
@@ -67,10 +67,6 @@ public class SpellSelector : MonoBehaviour
             {
                 deactivate = 0;
             }
-
-            Debug.Log(activeSpellZero);
-            Debug.Log(activeSpellOne);
-            Debug.Log(deactivate);
 
             spells[deactivate].GetComponent<UISpellCooldowns>().Deactivate();
             spells[activeSpellZero].GetComponent<UISpellCooldowns>().ActivateLeft();
