@@ -188,11 +188,6 @@ MonoBehaviour:
   waterCooldownUI: {fileID: 0}
   windCooldownUI: {fileID: 0}
   lightningCooldownUI: {fileID: 0}
-  fireButton: 323
-  earthButton: 324
-  lightningButton: 304
-  waterButton: 306
-  windButton: 32
   firePoint: {fileID: 1957130268322314612}
   firePrefab: {fileID: 1466571173037844522, guid: d93cfadfe58f8e441aa99a4f69cbaa55, type: 3}
   earthPrefab: {fileID: 4309715723002350255, guid: 4d515cae5b3b9f341a7472fe1b59514f, type: 3}
@@ -247,6 +242,12 @@ MonoBehaviour:
   windEnabled: 1
   lightningEnabled: 1
   arcaneEnabled: 1
+  fireUnlocked: 1
+  earthUnlocked: 1
+  waterUnlocked: 1
+  windUnlocked: 1
+  lightningUnlocked: 1
+  arcaneUnlocked: 1
 --- !u!114 &1205728281657632205
 MonoBehaviour:
   m_ObjectHideFlags: 0

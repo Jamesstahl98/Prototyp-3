@@ -11,7 +11,7 @@ public class SpellSelector : MonoBehaviour
 
     void Update() 
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.E) || Input.GetAxis("Mouse ScrollWheel") < 0f)
         {
             var temp0 = spells[0];
             var temp1 = spells[1];
