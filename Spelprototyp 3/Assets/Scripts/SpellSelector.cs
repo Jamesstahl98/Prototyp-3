@@ -19,21 +19,27 @@ public class SpellSelector : MonoBehaviour
             var temp3 = spells[3];
             var temp4 = spells[4];
 
-            //spells[0] = temp4;
-            //spells[1] = temp0;
-            //spells[2] = temp1;
-            //spells[3] = temp2;
-            //spells[4] = temp3;
             activeSpellZero++;
             activeSpellOne++;
             Debug.Log(activeSpellZero);
-            if (activeSpellZero == 4)
+            if (activeSpellZero == 5)
             {
                 activeSpellZero = 0;
             }
+            if (activeSpellOne == 5)
+            {
+                activeSpellOne = 0;
+            }
+
             var deactivate = activeSpellZero - 1;
+            if(deactivate == -1)
+            {
+                deactivate = 4;
+            }
 
             spells[deactivate].GetComponent<UISpellCooldowns>().Deactivate();
+            spells[activeSpellZero].GetComponent<UISpellCooldowns>().ActivateLeft();
+            spells[activeSpellOne].GetComponent<UISpellCooldowns>().ActivateRight();
         }
 
         if (Input.GetKeyDown(KeyCode.Q))
@@ -44,14 +50,31 @@ public class SpellSelector : MonoBehaviour
             var temp3 = spells[3];
             var temp4 = spells[4];
 
-            spells[4] = temp0;
-            spells[0] = temp1;
-            spells[1] = temp2;
-            spells[2] = temp3;
-            spells[3] = temp4;
+            activeSpellZero--;
+            activeSpellOne--;
 
-            activeSpellZero -= activeSpellZero;
-            activeSpellOne -= activeSpellOne;
+            if (activeSpellZero == -1)
+            {
+                activeSpellZero = 4;
+            }
+            if (activeSpellOne == -1)
+            {
+                activeSpellOne = 4;
+            }
+
+            var deactivate = activeSpellOne + 1;
+            if (deactivate == 5)
+            {
+                deactivate = 0;
+            }
+
+            Debug.Log(activeSpellZero);
+            Debug.Log(activeSpellOne);
+            Debug.Log(deactivate);
+
+            spells[deactivate].GetComponent<UISpellCooldowns>().Deactivate();
+            spells[activeSpellZero].GetComponent<UISpellCooldowns>().ActivateLeft();
+            spells[activeSpellOne].GetComponent<UISpellCooldowns>().ActivateRight();
         }
     }
 }

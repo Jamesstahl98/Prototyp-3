@@ -30,23 +30,23 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
             tempObject.transform.parent = transform;
             prefabList.Add(tempObject);
         }
-        if(player.GetComponent<Shooting>().fireEnabled == true)
+        if(player.GetComponent<Shooting>().fireUnlocked == true)
         {
             spellList.Add("Fire");
         }
-        if (player.GetComponent<Shooting>().earthEnabled == true)
+        if (player.GetComponent<Shooting>().earthUnlocked == true)
         {
             spellList.Add("Earth");
         }
-        if (player.GetComponent<Shooting>().waterEnabled == true)
+        if (player.GetComponent<Shooting>().waterUnlocked == true)
         {
             spellList.Add("Water");
         }
-        if (player.GetComponent<Shooting>().windEnabled == true)
+        if (player.GetComponent<Shooting>().windUnlocked == true)
         {
             spellList.Add("Wind");
         }
-        if (player.GetComponent<Shooting>().lightningEnabled == true)
+        if (player.GetComponent<Shooting>().lightningUnlocked == true)
         {
             spellList.Add("Lightning");
         }

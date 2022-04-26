@@ -15,11 +15,11 @@ public class Shooting : MonoBehaviour
     [SerializeField]
     private GameObject lightningCooldownUI;
 
-    public KeyCode fireButton;
-    public KeyCode earthButton;
-    public KeyCode lightningButton;
-    public KeyCode waterButton;
-    public KeyCode windButton;
+    private KeyCode fireButton = KeyCode.Mouse1;
+    private KeyCode earthButton = KeyCode.Mouse0;
+    private KeyCode lightningButton;
+    private KeyCode waterButton;
+    private KeyCode windButton;
 
     public Transform firePoint;
     public GameObject firePrefab;
@@ -79,14 +79,22 @@ public class Shooting : MonoBehaviour
 
     public bool fireEnabled = true;
     public bool earthEnabled = true;
-    public bool waterEnabled = true;
-    public bool windEnabled = true;
-    public bool lightningEnabled = true;
-    public bool arcaneEnabled = true;
+    public bool waterEnabled = false;
+    public bool windEnabled = false;
+    public bool lightningEnabled = false;
+    public bool arcaneEnabled = false;
+
+    public bool fireUnlocked = true;
+    public bool earthUnlocked = true;
+    public bool waterUnlocked = true;
+    public bool windUnlocked = true;
+    public bool lightningUnlocked = true;
+    public bool arcaneUnlocked = true;
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(fireButton);
         fireTimer += Time.deltaTime;
         earthTimer += Time.deltaTime;
         lightningTimer += Time.deltaTime;
@@ -322,6 +330,87 @@ public class Shooting : MonoBehaviour
         else if (element == "Arcane")
         {
             arcaneHP = arcaneHP + amount;
+        }
+    }
+
+    public void ChangeLeftMouseButton(string element)
+    {
+        if (element == "Earth")
+        {
+            earthButton = KeyCode.Mouse0;
+            earthEnabled = true;
+        }
+        else if (element == "Fire")
+        {
+            fireButton = KeyCode.Mouse0;
+            fireEnabled = true;
+        }
+        else if (element == "Wind")
+        {
+            windButton = KeyCode.Mouse0;
+            windEnabled = true;
+        }
+        else if (element == "Water")
+        {
+            waterButton = KeyCode.Mouse0;
+            waterEnabled = true;
+        }
+        else if (element == "Lightning")
+        {
+            lightningButton = KeyCode.Mouse0;
+            lightningEnabled = true;
+        }
+    }
+
+    public void ChangeRightMouseButton(string element)
+    {
+        if (element == "Earth")
+        {
+            earthButton = KeyCode.Mouse1;
+            earthEnabled = true;
+        }
+        else if (element == "Fire")
+        {
+            fireButton = KeyCode.Mouse1;
+            fireEnabled = true;
+        }
+        else if (element == "Wind")
+        {
+            windButton = KeyCode.Mouse1;
+            windEnabled = true;
+        }
+        else if (element == "Water")
+        {
+            waterButton = KeyCode.Mouse1;
+            waterEnabled = true;
+        }
+        else if (element == "Lightning")
+        {
+            lightningButton = KeyCode.Mouse1;
+            lightningEnabled = true;
+        }
+    }
+    public void DisableElement(string element)
+    {
+        if (element == "Earth")
+        {
+            earthEnabled = false;
+        }
+        else if (element == "Fire")
+        {
+            fireEnabled = false;
+        }
+        else if (element == "Wind")
+        {
+            windEnabled = false;
+        }
+        else if (element == "Water")
+        {
+            waterEnabled = false;
+        }
+        else if (element == "Lightning")
+        {
+            lightningEnabled = false;
         }
     }
 }
