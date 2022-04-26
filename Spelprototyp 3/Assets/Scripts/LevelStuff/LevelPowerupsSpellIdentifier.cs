@@ -10,7 +10,6 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
     private GameObject[] powerUpBackgrounds;
     private GameObject player;
     public List<string> spellList = new List<string>();
-    public List<string> spellListFinal = new List<string>();
 
     public List<GameObject> prefabList = new List<GameObject>();
 
@@ -50,10 +49,6 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         if (player.GetComponent<Shooting>().lightningEnabled == true)
         {
             spellList.Add("Lightning");
-        }
-        if (player.GetComponent<Shooting>().arcaneEnabled == true)
-        {
-            spellList.Add("Arcane");
         }
 
         for (int i = 0; i < spellList.Count; i++)
