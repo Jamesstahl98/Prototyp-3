@@ -7,6 +7,7 @@ using TMPro;
 public class UISpellCooldowns : MonoBehaviour
 {
     private GameObject player;
+    private SpriteRenderer sr;
 
     [SerializeField]
     private string spellType;
@@ -26,9 +27,10 @@ public class UISpellCooldowns : MonoBehaviour
         textCooldown.gameObject.SetActive(false);
         imageCooldown.fillAmount = 0.0f;
 
-        GameObject player = GameObject.Find("Player");
+        player = GameObject.Find("Player");
+        sr = gameObject.GetComponent<SpriteRenderer>();
 
-        if(spellType == "Fire")
+        if (spellType == "Fire")
         {
             cooldownTime = player.GetComponent<Shooting>().fireCD;
         }
@@ -96,6 +98,11 @@ public class UISpellCooldowns : MonoBehaviour
             cooldownTimer = cooldownTime;
         }
     }  
+
+    public void Deactivate()
+    {
+        Debug.Log(gameObject.name);
+    }
 
     public void CooldownUpgraded()
     {
