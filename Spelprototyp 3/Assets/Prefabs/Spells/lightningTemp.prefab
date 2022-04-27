@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 8642010658025562079}
   - component: {fileID: 1275682331910472822}
   - component: {fileID: 7790944536366086844}
+  - component: {fileID: 1495697227504495594}
   m_Layer: 0
   m_Name: lightningTempChild
   m_TagString: Lightning
@@ -187,8 +188,6 @@ MonoBehaviour:
   lightningWindPrefab: {fileID: 8289181036266480633, guid: 1eb4edbbd45192d4e86cc16a86197236, type: 3}
   cloudPrefab: {fileID: 5494831979269005269, guid: 656556c89fb284b499a57d6fa57ef746, type: 3}
   cloudForce: 3
-  baseDamage: 4
-  spellHP: 1000
   damageType: Lightning
 --- !u!114 &7790944536366086844
 MonoBehaviour:
@@ -203,3 +202,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spellDuration: 1
+--- !u!114 &1495697227504495594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720565055284766445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 0.8735534, b: 0, a: 1}
+  m_Intensity: 1
+  m_LightVolumeOpacity: 0.22
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 1.25
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.17728887, y: 0.20567434, z: 0}
+  - {x: -0.077955104, y: -0.2505457, z: 0}
+  - {x: -0.045515444, y: -0.63068545, z: 0}
+  - {x: 0.05125066, y: -0.22837876, z: 0}
+  - {x: 0.13840406, y: 0.36717218, z: 0}
+  - {x: 0.07827207, y: 0.5825123, z: 0}
+  - {x: -0.006167421, y: 0.6563828, z: 0}
+  - {x: -0.077752866, y: 0.55961597, z: 0}
+  - {x: -0.12322692, y: 0.39166564, z: 0}
