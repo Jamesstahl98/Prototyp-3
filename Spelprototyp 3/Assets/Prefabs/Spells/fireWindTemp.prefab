@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5129949666846440464}
   - component: {fileID: -2082190260946449516}
   - component: {fileID: -4655669237042197130}
+  - component: {fileID: 6962612508679623477}
   m_Layer: 0
   m_Name: fireWindTemp
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: de844ea070227ab4eb10592b2021c0e5, type: 3}
+  m_Sprite: {fileID: -4586435538762972243, guid: 1dd18a0b15c612b4382ec83d76db959b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -135,7 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b561f729a94e5034c8a1670c590942bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spellDuration: 5
 --- !u!114 &-4655669237042197130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +148,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd846c34f3a44b349b0aefe525ccd976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseDamage: 3
-  spellHP: 1000
   damageType: Fire
+--- !u!95 &6962612508679623477
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8650673261748095643}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f273d764804a98945b54135ea5f0d9e2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
