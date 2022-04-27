@@ -166,7 +166,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listNumber: 0
   listElement: 
-  powerUpParent: {fileID: 0}
   image: {fileID: 2406564603488339022}
   fireIcon: {fileID: 21300000, guid: b844f2cfd4b28b246bc9cbec18acff6b, type: 3}
   earthIcon: {fileID: 21300000, guid: 16fd86e90cfa8244b8caf76024df540f, type: 3}
