@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Spell_Fire1
+  m_Name: Spell_Fire
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -7007627074908763189, guid: c7cf40f2277ac76458f33f6e14632cfb, type: 3}
+      value: {fileID: 9185730469314464454, guid: f9a377d91bad52f4b961a06519bffb80, type: 3}
     - time: 0.083333336
-      value: {fileID: -685228077278727932, guid: c7cf40f2277ac76458f33f6e14632cfb, type: 3}
+      value: {fileID: -1579238362118515986, guid: f9a377d91bad52f4b961a06519bffb80, type: 3}
     - time: 0.16666667
-      value: {fileID: -2954292909550612197, guid: c7cf40f2277ac76458f33f6e14632cfb, type: 3}
+      value: {fileID: -700752806970031440, guid: f9a377d91bad52f4b961a06519bffb80, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,9 +44,9 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -7007627074908763189, guid: c7cf40f2277ac76458f33f6e14632cfb, type: 3}
-    - {fileID: -685228077278727932, guid: c7cf40f2277ac76458f33f6e14632cfb, type: 3}
-    - {fileID: -2954292909550612197, guid: c7cf40f2277ac76458f33f6e14632cfb, type: 3}
+    - {fileID: 9185730469314464454, guid: f9a377d91bad52f4b961a06519bffb80, type: 3}
+    - {fileID: -1579238362118515986, guid: f9a377d91bad52f4b961a06519bffb80, type: 3}
+    - {fileID: -700752806970031440, guid: f9a377d91bad52f4b961a06519bffb80, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

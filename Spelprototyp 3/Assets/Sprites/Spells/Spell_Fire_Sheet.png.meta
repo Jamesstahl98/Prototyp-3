@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: c7cf40f2277ac76458f33f6e14632cfb
+guid: f9a377d91bad52f4b961a06519bffb80
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7007627074908763189
-    second: Spell_Fire1_0
+      213: 9185730469314464454
+    second: Spell_Fire_Sheet_0
   - first:
-      213: -685228077278727932
-    second: Spell_Fire1_1
+      213: -1579238362118515986
+    second: Spell_Fire_Sheet_1
   - first:
-      213: -2954292909550612197
-    second: Spell_Fire1_2
+      213: -700752806970031440
+    second: Spell_Fire_Sheet_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -84,17 +84,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spell_Fire1_0
+      name: Spell_Fire_Sheet_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 78
-        width: 13
-        height: 7
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,20 +114,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcb47a9ad48efbe90800000000000000
-      internalID: -7007627074908763189
+      spriteID: 6ca88f991354a7f70800000000000000
+      internalID: 9185730469314464454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spell_Fire1_1
+      name: Spell_Fire_Sheet_1
       rect:
         serializedVersion: 2
-        x: 20
-        y: 46
-        width: 12
-        height: 7
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4017da7b1b49d76f0800000000000000
-      internalID: -685228077278727932
+      spriteID: ee2914aa31b651ae0800000000000000
+      internalID: -1579238362118515986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spell_Fire1_2
+      name: Spell_Fire_Sheet_2
       rect:
         serializedVersion: 2
-        x: 20
-        y: 14
-        width: 12
-        height: 7
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b11d7c3504e3007d0800000000000000
-      internalID: -2954292909550612197
+      spriteID: 0b28139e80d6646f0800000000000000
+      internalID: -700752806970031440
       vertices: []
       indices: 
       edges: []
