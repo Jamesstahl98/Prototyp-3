@@ -213,11 +213,11 @@ MonoBehaviour:
   waterDamage: 2
   windDamage: 4
   arcaneDamage: 2
-  fireSize: 6
-  earthSize: 1
+  fireSize: 1.5
+  earthSize: 2
   lightningSize: 1
   waterSize: 1
-  windSize: 1.6544
+  windSize: 2.5
   arcaneSize: 1
   fireHP: 3
   earthHP: 3
