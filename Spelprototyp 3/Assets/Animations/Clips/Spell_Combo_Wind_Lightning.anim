@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Spell_Fire_Wind
+  m_Name: Spell_Combo_Wind_Lightning
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -4586435538762972243, guid: 1dd18a0b15c612b4382ec83d76db959b, type: 3}
+      value: {fileID: -5942156524521214686, guid: 30c1c905a884c7a45aace3abb57cde01, type: 3}
     - time: 0.25
-      value: {fileID: 7723598167407422112, guid: 1dd18a0b15c612b4382ec83d76db959b, type: 3}
+      value: {fileID: -3731283558425956045, guid: 30c1c905a884c7a45aace3abb57cde01, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -42,8 +42,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -4586435538762972243, guid: 1dd18a0b15c612b4382ec83d76db959b, type: 3}
-    - {fileID: 7723598167407422112, guid: 1dd18a0b15c612b4382ec83d76db959b, type: 3}
+    - {fileID: -5942156524521214686, guid: 30c1c905a884c7a45aace3abb57cde01, type: 3}
+    - {fileID: -3731283558425956045, guid: 30c1c905a884c7a45aace3abb57cde01, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
