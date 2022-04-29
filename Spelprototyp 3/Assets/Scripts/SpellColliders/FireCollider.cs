@@ -8,7 +8,7 @@ public class FireCollider : MonoBehaviour
     public GameObject magmaPrefab;
     public GameObject fireTornadoPrefab;
 
-    public float magmaForce = 2f;
+    public float magmaForce;
     private float baseDamage;
     private int spellHP;
     private bool spellDead = false;
@@ -28,6 +28,7 @@ public class FireCollider : MonoBehaviour
         collider = gameObject.GetComponent<BoxCollider2D>();
         baseDamage = player.GetComponent<Shooting>().fireDamage;
         spellHP = player.GetComponent<Shooting>().fireHP;
+        magmaForce = (player.GetComponent<Shooting>().fireForce * player.GetComponent<Shooting>().earthForce) / 10;
     }
 
     void FixedUpdate()
@@ -72,9 +73,14 @@ public class FireCollider : MonoBehaviour
 
     void MagmaSpawn()
     {
-        GameObject magmaCircle = Instantiate(magmaPrefab, transform.position, transform.rotation);
-        Rigidbody2D rb = magmaCircle.GetComponent<Rigidbody2D>();
-        rb.AddForce(transform.up * magmaForce, ForceMode2D.Impulse);
+        Quaternion offset0 = Quaternion.Euler(0f, 0f, 20f);
+        GameObject magmaShrapnel0 = Instantiate(magmaPrefab, transform.position, transform.rotation);
+        Rigidbody2D rb0 = magmaShrapnel0.GetComponent<Rigidbody2D>();
+        rb0.AddForce(transform.up * magmaForce, ForceMode2D.Impulse);
+        Quaternion offset1 = Quaternion.Euler(0f, 0f, -20f);
+        GameObject magmaShrapnel1 = Instantiate(magmaPrefab, transform.position, transform.rotation);
+        Rigidbody2D rb1 = magmaShrapnel1.GetComponent<Rigidbody2D>();
+        rb1.AddForce(transform.up * magmaForce, ForceMode2D.Impulse);
     }
 
     void FireTornadoSpawn()
