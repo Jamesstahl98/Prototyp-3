@@ -73,14 +73,19 @@ public class FireCollider : MonoBehaviour
 
     void MagmaSpawn()
     {
-        Quaternion offset0 = Quaternion.Euler(0f, 0f, 20f);
         GameObject magmaShrapnel0 = Instantiate(magmaPrefab, transform.position, transform.rotation);
         Rigidbody2D rb0 = magmaShrapnel0.GetComponent<Rigidbody2D>();
-        rb0.AddForce(transform.up * magmaForce, ForceMode2D.Impulse);
-        Quaternion offset1 = Quaternion.Euler(0f, 0f, -20f);
+        rb0.transform.rotation = transform.rotation * Quaternion.Euler(0f, 0f, 20f);
+        rb0.AddForce(rb0.transform.up * magmaForce, ForceMode2D.Impulse);
+
         GameObject magmaShrapnel1 = Instantiate(magmaPrefab, transform.position, transform.rotation);
         Rigidbody2D rb1 = magmaShrapnel1.GetComponent<Rigidbody2D>();
-        rb1.AddForce(transform.up * magmaForce, ForceMode2D.Impulse);
+        rb1.AddForce(rb1.transform.up * magmaForce, ForceMode2D.Impulse);
+
+        GameObject magmaShrapnel2 = Instantiate(magmaPrefab, transform.position, transform.rotation);
+        Rigidbody2D rb2 = magmaShrapnel2.GetComponent<Rigidbody2D>();
+        rb2.transform.rotation = transform.rotation * Quaternion.Euler(0f, 0f, -20f);
+        rb2.AddForce(rb2.transform.up * magmaForce, ForceMode2D.Impulse);
     }
 
     void FireTornadoSpawn()
