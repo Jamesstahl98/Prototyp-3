@@ -44,7 +44,7 @@ public class MagmaCollider : MonoBehaviour
             {
                 ps.Stop(true, ParticleSystemStopBehavior.StopEmitting);
                 sr.GetComponent<Renderer>().enabled = false;
-                GetComponent<Collider>().enabled = false;
+                GetComponent<CircleCollider2D>().enabled = false;
                 StartCoroutine(PauseCode());
             }
         }

@@ -10,10 +10,12 @@ public class PlayerHealth : MonoBehaviour
     private SpriteRenderer sr;
     [SerializeField]
     private GameObject deathScreen;
+    private ParticleSystem ps;
 
     void Start()
     {
         sr = gameObject.GetComponent<SpriteRenderer>();
+        ps = gameObject.GetComponent<ParticleSystem>();
     }
 
     void FixedUpdate()
@@ -30,7 +32,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy" && damagedTimer > 30)
         {
-            Debug.Log("Player taking damage");
+            ps.Play();
             damagedTimer = 0;
             playerHealth = playerHealth - collision.gameObject.GetComponent<Enemy>().damage;
             sr.color = new Color(255f, 0f, 0f, 255f);
