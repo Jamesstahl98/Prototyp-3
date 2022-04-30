@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: -3563205976545330662}
   - component: {fileID: 6519381352947580440}
   - component: {fileID: 3605088526954212241}
+  - component: {fileID: 4365601502614835409}
   m_Layer: 0
   m_Name: 'Wind_Monster '
   m_TagString: Enemy
@@ -5096,3 +5097,19 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!70 &4365601502614835409
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2395202759652617169}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00137043, y: -0.45478165}
+  m_Size: {x: 1.2866077, y: 1.3648136}
+  m_Direction: 0

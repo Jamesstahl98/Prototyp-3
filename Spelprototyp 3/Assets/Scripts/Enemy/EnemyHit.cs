@@ -21,6 +21,9 @@ public class EnemyHit : MonoBehaviour
 
     private float hitTimer = 0;
     private SpriteRenderer sr;
+    private ParticleSystem ps;
+    private CapsuleCollider2D capsuleCollider;
+    private EdgeCollider2D edgeCollider;
 
     void FixedUpdate()
     {
@@ -36,6 +39,19 @@ public class EnemyHit : MonoBehaviour
     {
         sr = gameObject.GetComponent<SpriteRenderer>();
         enemyHP = Mathf.Round(enemyHP * (1 + (Time.time / hpIncreaseFactor)));
+        if (gameObject.GetComponent<CapsuleCollider2D>() != null)
+        {
+            capsuleCollider = gameObject.GetComponent<CapsuleCollider2D>();
+        }
+        if (gameObject.GetComponent<EdgeCollider2D>() != null)
+        {
+            edgeCollider = gameObject.GetComponent<EdgeCollider2D>();
+        }
+        if (gameObject.GetComponent<ParticleSystem>() != null)
+        {
+            ps = gameObject.GetComponent<ParticleSystem>();
+        }
+
     }
     public void TakeDamage(float baseDamage, string damageType)
     {
@@ -64,7 +80,29 @@ public class EnemyHit : MonoBehaviour
             {
                 Instantiate(xpPrefab, gameObject.transform.position, Quaternion.identity);
             }
-            Destroy(gameObject);
+
+            sr.enabled = false;
+
+            if (gameObject.GetComponent<ParticleSystem>() != null)
+            {
+                ps.Play();
+            }
+            if (gameObject.GetComponent<CapsuleCollider2D>() != null)
+            {
+                capsuleCollider.enabled = false;
+            }
+            if (gameObject.GetComponent<EdgeCollider2D>() != null)
+            {
+                edgeCollider.enabled = false;
+            }
+
+            StartCoroutine(PauseCode());
         }
+    }
+
+    IEnumerator PauseCode()
+    {
+        yield return new WaitForSeconds(2f);
+        Destroy(gameObject);
     }
 }
