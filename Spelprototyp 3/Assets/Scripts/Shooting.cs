@@ -84,12 +84,12 @@ public class Shooting : MonoBehaviour
     public bool lightningEnabled = false;
     public bool arcaneEnabled = false;
 
-    public bool fireUnlocked = true;
-    public bool earthUnlocked = true;
-    public bool waterUnlocked = true;
-    public bool windUnlocked = true;
-    public bool lightningUnlocked = true;
-    public bool arcaneUnlocked = true;
+    public bool fireUnlocked = false;
+    public bool earthUnlocked = false;
+    public bool waterUnlocked = false;
+    public bool windUnlocked = false;
+    public bool lightningUnlocked = false;
+    public bool arcaneUnlocked = false;
 
     // Update is called once per frame
     void Update()

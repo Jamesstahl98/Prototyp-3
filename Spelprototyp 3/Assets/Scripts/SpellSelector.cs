@@ -21,7 +21,6 @@ public class SpellSelector : MonoBehaviour
 
             activeSpellZero++;
             activeSpellOne++;
-            Debug.Log(activeSpellZero);
             if (activeSpellZero == 5)
             {
                 activeSpellZero = 0;

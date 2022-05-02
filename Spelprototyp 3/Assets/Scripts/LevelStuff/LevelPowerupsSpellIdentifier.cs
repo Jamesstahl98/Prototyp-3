@@ -9,11 +9,15 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
     [SerializeField]
     private GameObject[] powerUpBackgrounds;
     private GameObject player;
+    private int spellNumber = 0;
+
     public List<string> spellList = new List<string>();
+    public List<string> totalSpellList = new List<string>();
 
     public List<GameObject> prefabList = new List<GameObject>();
 
     public Button[] modifierButtons;
+    public Button[] baseSpellButtons;
 
     void Start()
     {
@@ -33,30 +37,53 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         if(player.GetComponent<Shooting>().fireUnlocked == true)
         {
             spellList.Add("Fire");
+            spellNumber++;
         }
         if (player.GetComponent<Shooting>().earthUnlocked == true)
         {
             spellList.Add("Earth");
+            spellNumber++;
         }
         if (player.GetComponent<Shooting>().waterUnlocked == true)
         {
             spellList.Add("Water");
+            spellNumber++;
         }
         if (player.GetComponent<Shooting>().windUnlocked == true)
         {
             spellList.Add("Wind");
+            spellNumber++;
         }
         if (player.GetComponent<Shooting>().lightningUnlocked == true)
         {
             spellList.Add("Lightning");
+            spellNumber++;
         }
-
-        for (int i = 0; i < spellList.Count; i++)
+        if (player.GetComponent<Shooting>().arcaneUnlocked == true)
         {
-            string temp = spellList[i];
-            int randomIndex = Random.Range(i, spellList.Count);
-            spellList[i] = spellList[randomIndex];
-            spellList[randomIndex] = temp;
+            spellList.Add("Arcane");
+            spellNumber++;
+        }
+        if (spellNumber >= 3)
+        {
+            for (int i = 0; i < spellList.Count; i++)
+            {
+                string temp = spellList[i];
+                int randomIndex = Random.Range(i, spellList.Count);
+                spellList[i] = spellList[randomIndex];
+                spellList[randomIndex] = temp;
+            }
+        }
+        else
+        {
+            for (int i = 0; i < totalSpellList.Count; i++)
+            {
+                string temp = totalSpellList[i];
+                int randomIndex = Random.Range(i, totalSpellList.Count);
+                totalSpellList[i] = totalSpellList[randomIndex];
+                totalSpellList[randomIndex] = temp;
+                Debug.Log(temp);
+            }
         }
     }
 

@@ -8,9 +8,11 @@ public class LevelPowerups : MonoBehaviour
 {
     public int listNumber;
     public string listElement;
-    private GameObject powerUpParent;
     public Image image;
 
+    private bool spellUnlocked = false;
+    private GameObject powerUpParent;
+    private GameObject player;
     //Icons
     [SerializeField]
     private Sprite fireIcon;
@@ -25,59 +27,91 @@ public class LevelPowerups : MonoBehaviour
     [SerializeField]
     private Sprite arcaneIcon;
 
-    private Button[] modifierButtons;
+    private Button[] buttons;
 
     void Start()
     {
+        player = GameObject.Find("Player");
         powerUpParent = transform.parent.gameObject;
-        if (listNumber == 0)
+        
+        if (listElement == "Fire" && player.GetComponent<Shooting>().fireUnlocked == true)
+        {
+            image.sprite = fireIcon;
+            spellUnlocked = true;
+        }
+        if (listElement == "Earth" && player.GetComponent<Shooting>().earthUnlocked == true)
+        {
+            image.sprite = earthIcon;
+            spellUnlocked = true;
+        }
+        if (listElement == "Wind" && player.GetComponent<Shooting>().windUnlocked == true)
+        {
+            spellUnlocked = true;
+            image.sprite = windIcon;
+        }
+        if (listElement == "Water" && player.GetComponent<Shooting>().waterUnlocked == true)
+        {
+            image.sprite = waterIcon;
+            spellUnlocked = true;
+        }
+        if (listElement == "Lightning" && player.GetComponent<Shooting>().lightningUnlocked == true)
+        {
+            image.sprite = lightningIcon;
+            spellUnlocked = true;
+        }
+        if (listElement == "Arcane" && player.GetComponent<Shooting>().arcaneUnlocked == true)
+        {
+            image.sprite = arcaneIcon;
+            spellUnlocked = true;
+        }
+        
+        if (listNumber == 0 && spellUnlocked == true)
         {
             listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[0];
         }
-        else if (listNumber == 1)
+        else if (listNumber == 1 && spellUnlocked == true)
         {
             listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[1];
         }
-        else if (listNumber == 2)
+        else if (listNumber == 2 && spellUnlocked == true)
         {
             listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[2];
         }
 
-        if (listElement == "Fire")
+        if (listNumber == 0 && spellUnlocked == false)
         {
-            image.sprite = fireIcon;
+            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().totalSpellList[0];
         }
-        if (listElement == "Earth")
+        else if (listNumber == 1 && spellUnlocked == false)
         {
-            image.sprite = earthIcon;
+            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().totalSpellList[1];
         }
-        if (listElement == "Wind")
+        else if (listNumber == 2 && spellUnlocked == false)
         {
-            image.sprite = windIcon;
+            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().totalSpellList[2];
         }
-        if (listElement == "Water")
+
+        if (spellUnlocked == true)
         {
-            image.sprite = waterIcon;
+            AddModifierButtons();
         }
-        if (listElement == "Wind")
+        else
         {
-            image.sprite = windIcon;
+            AddSpellUnlockButton();
         }
-        if (listElement == "Lightning")
-        {
-            image.sprite = lightningIcon;
-        }
-        if (listElement == "Arcane")
-        {
-            image.sprite = arcaneIcon;
-        }
-        AddText();
     }
 
-    void AddText()
+    void AddModifierButtons()
     {
-        modifierButtons = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().modifierButtons;
-        var newButton = Instantiate(modifierButtons[Random.Range(0, modifierButtons.Length)], transform.position, transform.rotation);
+        buttons = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().modifierButtons;
+        var newButton = Instantiate(buttons[Random.Range(0, buttons.Length)], transform.position, transform.rotation);
+        newButton.transform.parent = gameObject.transform;
+    }
+
+    void AddSpellUnlockButton()
+    {
+        buttons = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().baseSpellButtons;
+        var newButton = Instantiate(buttons[Random.Range(0, buttons.Length)], transform.position, transform.rotation);
         newButton.transform.parent = gameObject.transform;
     }
 }
