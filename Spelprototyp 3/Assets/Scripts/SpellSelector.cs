@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpellSelector : MonoBehaviour
 {
     public List<GameObject> spells = new List<GameObject>();
-
+    private List<GameObject> spellsUnlocked = new List<GameObject>();
     private int activeSpellZero = 0;
     private int activeSpellOne = 1;
 
@@ -72,4 +72,10 @@ public class SpellSelector : MonoBehaviour
             spells[activeSpellOne].GetComponent<UISpellCooldowns>().ActivateRight();
         }
     }
+    public void UpdateAbilities(GameObject spell)
+    {
+        spellsUnlocked.Add(spell);
+        Debug.Log(spellsUnlocked[0].name);
+    }
+
 }

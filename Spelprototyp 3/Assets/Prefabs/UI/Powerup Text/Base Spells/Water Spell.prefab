@@ -356,3 +356,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c22b6a906369654b935eeffa8547076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spellCooldownUI: {fileID: 5042349529757532271, guid: 0abd7ff847da0f44fad774578467c993, type: 3}

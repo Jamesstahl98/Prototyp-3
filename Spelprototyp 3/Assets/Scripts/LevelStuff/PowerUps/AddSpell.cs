@@ -8,6 +8,8 @@ public class AddSpell : MonoBehaviour
     private string spellType;
     private GameObject powerUpParent;
 
+    public GameObject spellCooldownUI;
+
     void Start()
     {
         player = GameObject.Find("Player");
@@ -41,6 +43,7 @@ public class AddSpell : MonoBehaviour
         {
             player.GetComponent<Shooting>().arcaneUnlocked = true;
         }
+        player.GetComponent<SpellSelector>().UpdateAbilities(spellCooldownUI);
         powerUpParent.transform.parent.gameObject.GetComponent<LevelPowerupsSpellIdentifier>().RemovePowerups();
     }
 }
