@@ -5,71 +5,68 @@ using UnityEngine;
 public class SpellSelector : MonoBehaviour
 {
     public List<GameObject> spells = new List<GameObject>();
-    private List<GameObject> spellsUnlocked = new List<GameObject>();
+    public List<GameObject> spellsUnlocked = new List<GameObject>();
     private int activeSpellZero = 0;
     private int activeSpellOne = 1;
+
+    public int maxSpells;
 
     void Update() 
     {
         if(Input.GetKeyDown(KeyCode.E) || Input.GetAxis("Mouse ScrollWheel") < 0f)
         {
-            var temp0 = spells[0];
-            var temp1 = spells[1];
-            var temp2 = spells[2];
-            var temp3 = spells[3];
-            var temp4 = spells[4];
-
             activeSpellZero++;
             activeSpellOne++;
-            if (activeSpellZero == 5)
+            if (activeSpellZero == spellsUnlocked.Count+1)
             {
-                activeSpellZero = 0;
+                activeSpellZero = 1;
             }
-            if (activeSpellOne == 5)
+            if (activeSpellOne == spellsUnlocked.Count+1)
             {
-                activeSpellOne = 0;
+                activeSpellOne = 1;
             }
 
             var deactivate = activeSpellZero - 1;
-            if(deactivate == -1)
+            if(deactivate == 0)
             {
-                deactivate = 4;
+                deactivate = spellsUnlocked.Count;
             }
-
-            spells[deactivate].GetComponent<UISpellCooldowns>().Deactivate();
-            spells[activeSpellZero].GetComponent<UISpellCooldowns>().ActivateLeft();
-            spells[activeSpellOne].GetComponent<UISpellCooldowns>().ActivateRight();
+            if (spellsUnlocked.Count > 2)
+            {
+                spells[deactivate].GetComponent<UISpellCooldowns>().Deactivate();
+                spells[activeSpellZero].GetComponent<UISpellCooldowns>().ActivateLeft();
+                spells[activeSpellOne].GetComponent<UISpellCooldowns>().ActivateRight();
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Q) || Input.GetAxis("Mouse ScrollWheel") > 0f)
         {
-            var temp0 = spells[0];
-            var temp1 = spells[1];
-            var temp2 = spells[2];
-            var temp3 = spells[3];
-            var temp4 = spells[4];
-
             activeSpellZero--;
             activeSpellOne--;
 
-            if (activeSpellZero == -1)
+            if (activeSpellZero == 0)
             {
-                activeSpellZero = 4;
+                activeSpellZero = spellsUnlocked.Count;
             }
-            if (activeSpellOne == -1)
+            if (activeSpellOne == 0)
             {
-                activeSpellOne = 4;
+                activeSpellOne = spellsUnlocked.Count;
             }
 
             var deactivate = activeSpellOne + 1;
-            if (deactivate == 5)
+            if (deactivate == spellsUnlocked.Count+1)
             {
-                deactivate = 0;
+                deactivate = 1;
             }
-
-            spells[deactivate].GetComponent<UISpellCooldowns>().Deactivate();
-            spells[activeSpellZero].GetComponent<UISpellCooldowns>().ActivateLeft();
-            spells[activeSpellOne].GetComponent<UISpellCooldowns>().ActivateRight();
+            if (spellsUnlocked.Count > 2)
+            {
+                Debug.Log("deactivate" + deactivate);
+                spells[deactivate].GetComponent<UISpellCooldowns>().Deactivate();
+                Debug.Log("activeSpellZero" + spells[activeSpellZero].name);
+                spells[activeSpellZero].GetComponent<UISpellCooldowns>().ActivateLeft();
+                Debug.Log("activeSpellOne" + spells[activeSpellOne].name);
+                spells[activeSpellOne].GetComponent<UISpellCooldowns>().ActivateRight();
+            }
         }
     }
     public void UpdateAbilities(GameObject spell)
