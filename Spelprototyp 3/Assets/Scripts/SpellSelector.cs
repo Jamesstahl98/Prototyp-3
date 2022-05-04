@@ -72,6 +72,14 @@ public class SpellSelector : MonoBehaviour
     public void UpdateAbilities(GameObject spell)
     {
         spellsUnlocked.Add(spell);
+        if (spellsUnlocked.Count == 1)
+        {
+            spell.GetComponent<UISpellCooldowns>().ActivateLeft();
+        }
+        if (spellsUnlocked.Count == 2)
+        {
+            spell.GetComponent<UISpellCooldowns>().ActivateRight();
+        }
     }
 
 }

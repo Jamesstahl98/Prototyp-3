@@ -77,8 +77,8 @@ public class Shooting : MonoBehaviour
     public float waterTimer = 100f;
     public float windTimer = 100f;
 
-    public bool fireEnabled = true;
-    public bool earthEnabled = true;
+    public bool fireEnabled = false;
+    public bool earthEnabled = false;
     public bool waterEnabled = false;
     public bool windEnabled = false;
     public bool lightningEnabled = false;
