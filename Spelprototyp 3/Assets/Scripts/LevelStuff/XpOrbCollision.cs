@@ -7,7 +7,7 @@ public class XpOrbCollision : MonoBehaviour
     [SerializeField]
     private GameObject levelUpObject;
 
-    public void OnCollisionEnter2D(Collision2D coll)
+    public void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "XpOrb50")
         {
