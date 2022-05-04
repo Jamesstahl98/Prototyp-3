@@ -96,4 +96,16 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    public void RemoveFromTotalSpellList(string element)
+    {
+        //for (int i = 0; i < spellList.Count; i++)
+        //{
+            //if(totalSpellList(i).Name == element)
+            //{
+            //    totalSpellList(i).Remove;
+            //}
+        //}
+        //RemoveAll
+    }
+
 }
