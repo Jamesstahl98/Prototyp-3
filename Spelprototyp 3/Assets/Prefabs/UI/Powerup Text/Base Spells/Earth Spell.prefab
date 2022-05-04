@@ -356,4 +356,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c22b6a906369654b935eeffa8547076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spellCooldownUI: {fileID: 7213422151952883644, guid: c8920abf70f8ebc4ba2d2f6774c446ea, type: 3}
+  spellType: Earth

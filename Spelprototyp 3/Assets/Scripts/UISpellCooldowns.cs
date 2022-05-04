@@ -102,18 +102,21 @@ public class UISpellCooldowns : MonoBehaviour
     public void Deactivate()
     {
         transform.position = new Vector2(transform.position.x, -400);
+        player = GameObject.Find("Player");
         player.GetComponent<Shooting>().DisableElement(spellType);
     }
 
     public void ActivateRight()
     {
         transform.position = new Vector2(315, 13);
+        player = GameObject.Find("Player");
         player.GetComponent<Shooting>().ChangeRightMouseButton(spellType);
     }
 
     public void ActivateLeft()
     {
         transform.position = new Vector2(35, 13);
+        player = GameObject.Find("Player");
         player.GetComponent<Shooting>().ChangeLeftMouseButton(spellType);
     }
 

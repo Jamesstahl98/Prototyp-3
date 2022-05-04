@@ -94,7 +94,6 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(fireButton);
         fireTimer += Time.deltaTime;
         earthTimer += Time.deltaTime;
         lightningTimer += Time.deltaTime;

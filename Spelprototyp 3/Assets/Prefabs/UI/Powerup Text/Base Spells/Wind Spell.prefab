@@ -356,4 +356,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c22b6a906369654b935eeffa8547076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spellCooldownUI: {fileID: 68440320925626026, guid: b18400209b36b48428ffd934de7b1acb, type: 3}
+  spellType: Wind

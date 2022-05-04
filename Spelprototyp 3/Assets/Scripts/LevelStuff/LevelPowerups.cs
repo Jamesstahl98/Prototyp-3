@@ -64,35 +64,33 @@ public class LevelPowerups : MonoBehaviour
             image.sprite = arcaneIcon;
             spellUnlocked = true;
         }
-        
-        if (listNumber == 0 && spellUnlocked == true)
-        {
-            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[0];
-        }
-        else if (listNumber == 1 && spellUnlocked == true)
-        {
-            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[1];
-        }
-        else if (listNumber == 2 && spellUnlocked == true)
-        {
-            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[2];
-        }
-
-        if (listNumber == 0 && spellUnlocked == false)
-        {
-            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().totalSpellList[0];
-        }
-        else if (listNumber == 1 && spellUnlocked == false)
-        {
-            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().totalSpellList[1];
-        }
-        else if (listNumber == 2 && spellUnlocked == false)
-        {
-            listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().totalSpellList[2];
-        }
-
         if (spellUnlocked == true)
         {
+            if (listNumber == 0 && spellUnlocked == true)
+            {
+                listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[0];
+            }
+            else if (listNumber == 1 && spellUnlocked == true)
+            {
+                listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[1];
+            }
+            else if (listNumber == 2 && spellUnlocked == true)
+            {
+                listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().spellList[2];
+            }
+
+            if (listNumber == 0 && spellUnlocked == false)
+            {
+                listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().totalSpellList[0];
+            }
+            else if (listNumber == 1 && spellUnlocked == false)
+            {
+                listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().totalSpellList[1];
+            }
+            else if (listNumber == 2 && spellUnlocked == false)
+            {
+                listElement = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().totalSpellList[2];
+            }
             AddModifierButtons();
         }
         else

@@ -356,4 +356,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c22b6a906369654b935eeffa8547076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spellCooldownUI: {fileID: 625242458122577993, guid: 66f8dc1950a414b4fbf4c50b6891b72c, type: 3}
+  spellType: Fire

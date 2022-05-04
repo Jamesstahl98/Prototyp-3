@@ -356,4 +356,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c22b6a906369654b935eeffa8547076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spellCooldownUI: {fileID: 5815044710583103148, guid: ab8edc73a3f0beb42a9a31c1bece84b4, type: 3}
+  spellType: Lightning
