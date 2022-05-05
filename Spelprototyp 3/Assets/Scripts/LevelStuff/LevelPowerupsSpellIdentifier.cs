@@ -13,11 +13,15 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
 
     public List<string> spellList = new List<string>();
     public List<string> totalSpellList = new List<string>();
+    public List<Button> availableBaseSpellButtons = new List<Button>();
+    public List<Button> baseSpellButtons = new List<Button>();
 
     public List<GameObject> prefabList = new List<GameObject>();
 
     public Button[] modifierButtons;
-    public Button[] baseSpellButtons;
+    //public Button[] baseSpellButtons;
+    public string[] unlockedSpellStrings;
+    private int spellCounter = 0;
 
     void Start()
     {
@@ -64,6 +68,7 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
             spellList.Add("Arcane");
             spellNumber++;
         }
+        Debug.Log("Spellnumber:" + spellNumber);
         if (spellNumber >= 3)
         {
             for (int i = 0; i < spellList.Count; i++)
@@ -96,16 +101,33 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void RemoveFromTotalSpellList(string element)
+    public void RemoveFromTotalSpellList()
     {
-        for (int i = 0; i < totalSpellList.Count; i++)
+        availableBaseSpellButtons.Clear();
+        if (player.GetComponent<Shooting>().fireUnlocked == false)
         {
-            if(totalSpellList[i] == element)
-            {
-                totalSpellList.RemoveAt(i);
-            }
+            availableBaseSpellButtons.Add(baseSpellButtons[0]);
         }
-        //totalSpellList.RemoveAll()
+        if (player.GetComponent<Shooting>().earthUnlocked == false)
+        {
+            availableBaseSpellButtons.Add(baseSpellButtons[1]);
+        }
+        if (player.GetComponent<Shooting>().waterUnlocked == false)
+        {
+            availableBaseSpellButtons.Add(baseSpellButtons[2]);
+        }
+        if (player.GetComponent<Shooting>().windUnlocked == false)
+        {
+            availableBaseSpellButtons.Add(baseSpellButtons[3]);
+        }
+        if (player.GetComponent<Shooting>().lightningUnlocked == false)
+        {
+            availableBaseSpellButtons.Add(baseSpellButtons[4]);
+        }
+        if (player.GetComponent<Shooting>().arcaneUnlocked == false)
+        {
+            availableBaseSpellButtons.Add(baseSpellButtons[5]);
+        }
     }
 
 }

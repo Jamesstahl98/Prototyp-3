@@ -28,6 +28,7 @@ public class LevelPowerups : MonoBehaviour
     private Sprite arcaneIcon;
 
     private Button[] buttons;
+    public List<Button> baseSpellButtons = new List<Button>();
 
     void Start()
     {
@@ -108,8 +109,9 @@ public class LevelPowerups : MonoBehaviour
 
     void AddSpellUnlockButton()
     {
-        buttons = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().baseSpellButtons;
-        var newButton = Instantiate(buttons[Random.Range(0, buttons.Length)], transform.position, transform.rotation);
+        baseSpellButtons = powerUpParent.GetComponent<LevelPowerupsSpellIdentifier>().availableBaseSpellButtons;
+        Debug.Log(baseSpellButtons[0]);
+        var newButton = Instantiate(baseSpellButtons[Random.Range(0, baseSpellButtons.Count)], transform.position, transform.rotation);
         newButton.transform.parent = gameObject.transform;
     }
 }

@@ -7,6 +7,14 @@ public class XpOrbCollision : MonoBehaviour
     [SerializeField]
     private GameObject levelUpObject;
 
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Keypad0))
+        {
+            levelUpObject.GetComponent<LevelWork>().AddExperience(50);
+        }
+    }
+
     public void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "XpOrb50")
