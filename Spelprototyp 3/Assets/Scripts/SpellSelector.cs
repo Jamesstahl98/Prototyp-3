@@ -91,9 +91,31 @@ public class SpellSelector : MonoBehaviour
     public void SortAbilities()
     {
         spellsUnlocked.Clear();
-        if (spellsUnlocked.Contains(earthObject))
+        if (gameObject.GetComponent<Shooting>().earthUnlocked == true)
         {
             spellsUnlocked.Add(earthObject);
         }
+        if (gameObject.GetComponent<Shooting>().fireUnlocked == true)
+        {
+            spellsUnlocked.Add(fireObject);
+        }
+        if (gameObject.GetComponent<Shooting>().windUnlocked == true)
+        {
+            spellsUnlocked.Add(windObject);
+        }
+        if (gameObject.GetComponent<Shooting>().lightningUnlocked == true)
+        {
+            spellsUnlocked.Add(lightningObject);
+        }
+        if (gameObject.GetComponent<Shooting>().waterUnlocked == true)
+        {
+            spellsUnlocked.Add(waterObject);
+        }
+        //for (int i = 0; i < spellsUnlocked.Count; i++)
+        //{
+            //spellsUnlocked[i].GetComponent<UISpellCooldowns>().Deactivate();
+        //}
+        //activeSpellZero = 1;
+        //activeSpellOne = 2;
     }
 }

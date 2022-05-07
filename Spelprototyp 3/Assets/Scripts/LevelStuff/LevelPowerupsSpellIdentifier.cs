@@ -90,6 +90,7 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         {
             Destroy(background);
         }
+        player.GetComponent<SpellSelector>().SortAbilities();
         Time.timeScale = 1;
     }
 
