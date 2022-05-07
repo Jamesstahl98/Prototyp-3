@@ -11,6 +11,12 @@ public class SpellSelector : MonoBehaviour
 
     public int maxSpells;
 
+    public GameObject earthObject;
+    public GameObject fireObject;
+    public GameObject windObject;
+    public GameObject lightningObject;
+    public GameObject waterObject;
+
     void Update() 
     {
         if (spellsUnlocked.Count > 2)
@@ -82,4 +88,12 @@ public class SpellSelector : MonoBehaviour
         }
     }
 
+    public void SortAbilities()
+    {
+        spellsUnlocked.Clear();
+        if (spellsUnlocked.Contains(earthObject))
+        {
+            spellsUnlocked.Add(earthObject);
+        }
+    }
 }

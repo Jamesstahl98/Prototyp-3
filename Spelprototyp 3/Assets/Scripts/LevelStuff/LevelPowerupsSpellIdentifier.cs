@@ -9,7 +9,6 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
     [SerializeField]
     private GameObject[] powerUpBackgrounds;
     private GameObject player;
-    private int spellNumber = 0;
 
     public List<string> spellList = new List<string>();
     public List<string> totalSpellList = new List<string>();
@@ -21,7 +20,6 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
     public Button[] modifierButtons;
     //public Button[] baseSpellButtons;
     public string[] unlockedSpellStrings;
-    private int spellCounter = 0;
 
     void Start()
     {
@@ -38,38 +36,31 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
             tempObject.transform.parent = transform;
             prefabList.Add(tempObject);
         }
-        if(player.GetComponent<Shooting>().fireUnlocked == true)
+        if(player.GetComponent<Shooting>().fireUnlocked == true && !spellList.Contains("Fire"))
         {
             spellList.Add("Fire");
-            spellNumber++;
         }
-        if (player.GetComponent<Shooting>().earthUnlocked == true)
+        if (player.GetComponent<Shooting>().earthUnlocked == true && !spellList.Contains("Earth"))
         {
             spellList.Add("Earth");
-            spellNumber++;
         }
-        if (player.GetComponent<Shooting>().waterUnlocked == true)
+        if (player.GetComponent<Shooting>().waterUnlocked == true && !spellList.Contains("Water"))
         {
             spellList.Add("Water");
-            spellNumber++;
         }
-        if (player.GetComponent<Shooting>().windUnlocked == true)
+        if (player.GetComponent<Shooting>().windUnlocked == true && !spellList.Contains("Wind"))
         {
             spellList.Add("Wind");
-            spellNumber++;
         }
-        if (player.GetComponent<Shooting>().lightningUnlocked == true)
+        if (player.GetComponent<Shooting>().lightningUnlocked == true && !spellList.Contains("Lightning"))
         {
             spellList.Add("Lightning");
-            spellNumber++;
         }
-        if (player.GetComponent<Shooting>().arcaneUnlocked == true)
-        {
-            spellList.Add("Arcane");
-            spellNumber++;
-        }
-        Debug.Log("Spellnumber:" + spellNumber);
-        if (spellNumber >= 3)
+        //if (player.GetComponent<Shooting>().arcaneUnlocked == true)
+        //{
+        //    spellList.Add("Arcane");
+        //}
+        if (spellList.Count >= 4)
         {
             for (int i = 0; i < spellList.Count; i++)
             {
@@ -77,6 +68,7 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
                 int randomIndex = Random.Range(i, spellList.Count);
                 spellList[i] = spellList[randomIndex];
                 spellList[randomIndex] = temp;
+                Debug.Log(temp);
             }
         }
         else
@@ -124,10 +116,10 @@ public class LevelPowerupsSpellIdentifier : MonoBehaviour
         {
             availableBaseSpellButtons.Add(baseSpellButtons[4]);
         }
-        if (player.GetComponent<Shooting>().arcaneUnlocked == false)
-        {
-            availableBaseSpellButtons.Add(baseSpellButtons[5]);
-        }
+        //if (player.GetComponent<Shooting>().arcaneUnlocked == false)
+        //{
+        //    availableBaseSpellButtons.Add(baseSpellButtons[5]);
+        //}
     }
 
 }
