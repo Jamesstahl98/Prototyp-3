@@ -5,6 +5,8 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class MagmaCollider : MonoBehaviour
 {
+    public GameObject particleObject;
+
     private float baseDamage;
     private float spellHP;
     public string damageType;
@@ -42,6 +44,7 @@ public class MagmaCollider : MonoBehaviour
 
             if(spellHP <= 0)
             {
+                Instantiate(particleObject, transform.position, transform.rotation);
                 ps.Stop(true, ParticleSystemStopBehavior.StopEmitting);
                 sr.GetComponent<Renderer>().enabled = false;
                 GetComponent<CircleCollider2D>().enabled = false;

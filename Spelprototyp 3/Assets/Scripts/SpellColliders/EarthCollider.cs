@@ -5,6 +5,7 @@ using UnityEngine;
 public class EarthCollider : MonoBehaviour
 {
     public GameObject plantPrefab;
+    public GameObject particleObject;
 
     private float baseDamage;
     private int spellHP;
@@ -29,6 +30,7 @@ public class EarthCollider : MonoBehaviour
 
             if (spellHP <= 0)
             {
+                Instantiate(particleObject, transform.position, transform.rotation);
                 Destroy(gameObject);
             }
         }

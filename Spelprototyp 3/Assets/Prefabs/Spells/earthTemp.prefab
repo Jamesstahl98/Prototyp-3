@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantPrefab: {fileID: 3672089297724630825, guid: f70c68a9f4722a14aa98547fc588b8b7, type: 3}
+  particleObject: {fileID: 7180592625272191642, guid: e5fcf4c17267bff42ae9a36463c59570, type: 3}
   damageType: Earth
 --- !u!114 &5427756229046576614
 MonoBehaviour:
