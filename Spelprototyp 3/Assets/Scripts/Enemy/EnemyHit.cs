@@ -95,7 +95,7 @@ public class EnemyHit : MonoBehaviour
             {
                 edgeCollider.enabled = false;
             }
-
+            GameObject.Find("Spawner").GetComponent<EnemySpawner>().enemyNumber--;
             StartCoroutine(PauseCode());
         }
     }
