@@ -175,7 +175,7 @@ MonoBehaviour:
   enemyType: Wind
   enemyHP: 4
   hpIncreaseFactor: 30
-  xpDropRate: 25
+  xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
 --- !u!114 &-1529484624917597421
 MonoBehaviour:

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6538685451511018927}
   - component: {fileID: 6538685451511018926}
   - component: {fileID: 6538685451511018913}
+  - component: {fileID: 3407388655344137844}
   m_Layer: 0
   m_Name: XpOrb
   m_TagString: XpOrb
@@ -109,3 +110,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.3576074, y: 2.1169891}
   m_EdgeRadius: 0
+--- !u!114 &3407388655344137844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6538685451511018912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf24f8e61d3120458d2fec1382d5da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xpGain: 50

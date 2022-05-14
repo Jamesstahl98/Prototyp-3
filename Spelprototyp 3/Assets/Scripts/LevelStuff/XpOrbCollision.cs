@@ -17,10 +17,10 @@ public class XpOrbCollision : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.gameObject.tag == "XpOrb50")
+        if (coll.gameObject.tag == "XpOrb")
         {
             Destroy(coll.gameObject);
-            levelUpObject.GetComponent<LevelWork>().AddExperience(50);
+            levelUpObject.GetComponent<LevelWork>().AddExperience(coll.GetComponent<XpOrb>().xpGain);
         }
     }
 }

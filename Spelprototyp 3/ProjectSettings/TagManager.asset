@@ -11,6 +11,7 @@ TagManager:
   - Water
   - Wind
   - XpOrb50
+  - XpOrb
   layers:
   - Default
   - TransparentFX
