@@ -18,7 +18,7 @@ public class EarthCollider : MonoBehaviour
     {
         player = GameObject.Find("Player");
         baseDamage = player.GetComponent<Shooting>().earthDamage;
-        spellHP = player.GetComponent<Shooting>().fireHP;
+        spellHP = player.GetComponent<Shooting>().earthHP;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
