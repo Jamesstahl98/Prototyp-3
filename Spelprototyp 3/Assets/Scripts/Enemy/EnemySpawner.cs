@@ -6,13 +6,14 @@ public class EnemySpawner : MonoBehaviour
 {
     public GameObject[] enemies;
     public GameObject[] enemyWaves;
-    public float[] nextWave;
 
     private int waveNumber = 0;
 
     public int enemyNumber = 0;
 
     public int maxEnemies;
+
+    public int waveTime;
 
     [SerializeField]
     private Transform[] spawnPoints;
@@ -30,8 +31,12 @@ public class EnemySpawner : MonoBehaviour
 
         if (timer >= interval)
         {
+            var wave = Mathf.RoundToInt(totalTimer / 16) - 1;
+            if(wave <= enemyWaves.Length)
+            {
+                var newEnemy = Instantiate(enemyWaves[wave], spawnPoints[Random.Range(0, spawnPoints.Length)].position, transform.rotation);
+            }
             timer = 0f;
-            var newEnemy = Instantiate(enemies[Random.Range(0, enemies.Length)], spawnPoints[Random.Range(0, spawnPoints.Length)].position, transform.rotation);
         }
     }
 }
