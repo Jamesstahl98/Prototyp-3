@@ -7,6 +7,13 @@ public class XpOrbCollision : MonoBehaviour
     [SerializeField]
     private GameObject levelUpObject;
 
+    private AudioSource audio;
+
+    void Start()
+    {
+        audio = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Keypad0))
@@ -21,6 +28,7 @@ public class XpOrbCollision : MonoBehaviour
         {
             Destroy(coll.gameObject);
             levelUpObject.GetComponent<LevelWork>().AddExperience(coll.GetComponent<XpOrb>().xpGain);
+            audio.Play(0);
         }
     }
 }
