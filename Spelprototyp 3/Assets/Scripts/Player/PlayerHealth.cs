@@ -6,6 +6,8 @@ public class PlayerHealth : MonoBehaviour
 {
     public int playerHealth;
 
+    public GameObject hpBar;
+
     private float damagedTimer = 30;
     private SpriteRenderer sr;
     [SerializeField]
@@ -36,6 +38,7 @@ public class PlayerHealth : MonoBehaviour
             damagedTimer = 0;
             playerHealth = playerHealth - collision.gameObject.GetComponent<Enemy>().damage;
             sr.color = new Color(255f, 0f, 0f, 255f);
+            hpBar.GetComponent<HealthBar>().SetHealth(playerHealth);
 
             if (playerHealth <= 0)
             {
