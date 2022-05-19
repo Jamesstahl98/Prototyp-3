@@ -11,7 +11,7 @@ public class FireWindCollider : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        baseDamage = (player.GetComponent<Shooting>().windDamage + player.GetComponent<Shooting>().fireDamage) / 1.5f;
+        baseDamage = (player.GetComponent<Shooting>().windDamage + player.GetComponent<Shooting>().fireDamage) / 1.7f;
     }
 
     void OnTriggerStay2D(Collider2D collision)
