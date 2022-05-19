@@ -38,7 +38,6 @@ public class EnemyHit : MonoBehaviour
     void Start()
     {
         sr = gameObject.GetComponent<SpriteRenderer>();
-        enemyHP = Mathf.Round(enemyHP * (1 + (Time.time / hpIncreaseFactor)));
         if (gameObject.GetComponent<CapsuleCollider2D>() != null)
         {
             capsuleCollider = gameObject.GetComponent<CapsuleCollider2D>();
