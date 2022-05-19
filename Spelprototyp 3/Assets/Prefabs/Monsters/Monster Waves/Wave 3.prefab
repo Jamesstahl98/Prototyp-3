@@ -224,6 +224,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -416,6 +417,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -608,6 +610,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -800,6 +803,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -992,6 +996,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -1184,6 +1189,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -1376,6 +1382,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -1568,6 +1575,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -1760,6 +1768,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -1952,6 +1961,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -2144,6 +2154,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
@@ -2336,6 +2347,7 @@ MonoBehaviour:
   areaDamageCooldown: 60
   areaDamageTimer: 1
   enemyType: Lightning
+  pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
   enemyHP: 6
   hpIncreaseFactor: 30
   xpDropRate: 60
