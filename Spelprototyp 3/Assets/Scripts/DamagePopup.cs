@@ -12,7 +12,7 @@ public class DamagePopup : MonoBehaviour
         textMesh = transform.GetComponent<TextMeshPro>();
     }
 
-    public void Setup(int damageAmount)
+    public void Setup(float damageAmount)
     {
         textMesh.SetText(damageAmount.ToString());
     }
