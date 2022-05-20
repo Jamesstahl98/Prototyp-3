@@ -23,7 +23,6 @@ public class SpellSelector : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E) || Input.GetAxis("Mouse ScrollWheel") < 0f)
             {
-                Debug.Log("Count: " + spellsUnlocked.Count);
                 activeSpellZero++;
                 activeSpellOne++;
                 if (activeSpellZero >= spellsUnlocked.Count + 1)
@@ -40,8 +39,6 @@ public class SpellSelector : MonoBehaviour
                 {
                     deactivate = spellsUnlocked.Count;
                 }
-                Debug.Log("zero: " + activeSpellZero);
-                Debug.Log("one: " + activeSpellOne);
                 spellsUnlocked[deactivate - 1].GetComponent<UISpellCooldowns>().Deactivate();
                 spellsUnlocked[activeSpellZero - 1].GetComponent<UISpellCooldowns>().ActivateLeft();
                 spellsUnlocked[activeSpellOne - 1].GetComponent<UISpellCooldowns>().ActivateRight();
@@ -51,7 +48,6 @@ public class SpellSelector : MonoBehaviour
             {
                 activeSpellZero--;
                 activeSpellOne--;
-                Debug.Log(activeSpellZero);
 
                 if (activeSpellZero <= 0)
                 {
@@ -67,8 +63,6 @@ public class SpellSelector : MonoBehaviour
                 {
                     deactivate = 1;
                 }
-                Debug.Log("zero: " + activeSpellZero);
-                Debug.Log("one: " + activeSpellOne);
                 spellsUnlocked[deactivate - 1].GetComponent<UISpellCooldowns>().Deactivate();
                 spellsUnlocked[activeSpellZero - 1].GetComponent<UISpellCooldowns>().ActivateLeft();
                 spellsUnlocked[activeSpellOne - 1].GetComponent<UISpellCooldowns>().ActivateRight();

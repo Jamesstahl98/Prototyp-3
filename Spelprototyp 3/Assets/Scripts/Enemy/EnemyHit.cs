@@ -11,6 +11,8 @@ public class EnemyHit : MonoBehaviour
     public string enemyType;
 
     private float damageTaken;
+    private bool isWeak = false;
+    private bool isStrong = false;
 
     [SerializeField]
     private Transform pfDamagePopup;
@@ -63,24 +65,30 @@ public class EnemyHit : MonoBehaviour
         hitTimer = 0;
         if((damageType == "Fire" && enemyType == "Wind") || (damageType == "Wind" && enemyType == "Earth") || (damageType == "Earth" && enemyType == "Lightning") || (damageType == "Lightning" && enemyType == "Water") || (damageType == "Water" && enemyType == "Fire"))
         {
+            isStrong = true;
+            isWeak = false;
             damageTaken = baseDamage * positiveDamageModifier;
             enemyHP = enemyHP - damageTaken;
         }
 
         else if ((damageType == "Wind" && enemyType == "Fire") || (damageType == "Earth" && enemyType == "Wind") || (damageType == "Lightning" && enemyType == "Earth") || (damageType == "Water" && enemyType == "Lightning") || (damageType == "Fire" && enemyType == "Water"))
         {
+            isWeak = true;
+            isStrong = false;
             damageTaken = baseDamage * negativeDamageModifier;
             enemyHP = enemyHP - damageTaken;
         }
 
         else
         {
+            isWeak = false;
+            isStrong = false;
             damageTaken = baseDamage;
             enemyHP = enemyHP - damageTaken;
         }
-        Transform damagePopupTransform = Instantiate(pfDamagePopup, Vector3.zero, Quaternion.identity);
-        DamagePopup damagePopup = damagePopupTransform.GetComponent<DamagePopup>();
-        damagePopup.Setup(damageTaken);
+
+        //Spawn Damage Popup
+        DamagePopup.Create(transform.position, damageTaken, isWeak, isStrong);
 
         if (enemyHP <= 0)
         {

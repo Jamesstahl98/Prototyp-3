@@ -35,7 +35,6 @@ public class FireCollider : MonoBehaviour
     {
         if (spellDead == true && gameObject.GetComponent<Light2D>().intensity >= 0)
         {
-            Debug.Log("spell dead");
             gameObject.GetComponent<Light2D>().intensity = gameObject.GetComponent<Light2D>().intensity - 0.02f;
         }
     }
