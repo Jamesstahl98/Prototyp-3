@@ -88,7 +88,7 @@ public class EnemyHit : MonoBehaviour
         }
 
         //Spawn Damage Popup
-        DamagePopup.Create(transform.position, damageTaken, isWeak, isStrong);
+        DamagePopup.Create(transform.position, Mathf.Round(damageTaken), isWeak, isStrong);
 
         if (enemyHP <= 0)
         {
