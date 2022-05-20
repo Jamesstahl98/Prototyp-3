@@ -105,11 +105,16 @@ public class SpellSelector : MonoBehaviour
         {
             spellsUnlocked.Add(waterObject);
         }
-        //for (int i = 0; i < spellsUnlocked.Count; i++)
-        //{
-            //spellsUnlocked[i].GetComponent<UISpellCooldowns>().Deactivate();
-        //}
-        //activeSpellZero = 1;
-        //activeSpellOne = 2;
+        for (int i = 0; i < spellsUnlocked.Count; i++)
+        {
+            spellsUnlocked[i].GetComponent<UISpellCooldowns>().Deactivate();
+        }
+        activeSpellZero = 1;
+        activeSpellOne = 2;
+        spellsUnlocked[activeSpellZero - 1].GetComponent<UISpellCooldowns>().ActivateLeft();
+        if(spellsUnlocked.Count>1)
+        {
+            spellsUnlocked[activeSpellOne - 1].GetComponent<UISpellCooldowns>().ActivateRight();
+        }
     }
 }
