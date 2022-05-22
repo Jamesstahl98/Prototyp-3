@@ -8,7 +8,7 @@ public class DamagePopup : MonoBehaviour
     private TextMeshPro textMesh;
     private float disappearTimer;
     private Color textColor;
-
+    private Vector3 moveVector;
     private const float disappearTimerMax = 1f;
 
     public static DamagePopup Create(Vector3 position, float damageAmount, bool isWeak, bool isStrong)
@@ -44,14 +44,16 @@ public class DamagePopup : MonoBehaviour
             textColor = textMesh.color;
         }
         textMesh.color = textColor;
-
         disappearTimer = disappearTimerMax;
+
+        moveVector = new Vector3(.7f, .5f) * 60f;
     }
 
     private void Update()
     {
         float moveYSpeed = 10f;
-        transform.position += new Vector3(0, moveYSpeed) * Time.deltaTime;
+        transform.position += moveVector * Time.deltaTime;
+        moveVector -= moveVector * 8f * Time.deltaTime;
 
         if (disappearTimer > disappearTimerMax * .5f)
         {
