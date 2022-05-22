@@ -63,6 +63,7 @@ GameObject:
   - component: {fileID: 6472037865375890777}
   - component: {fileID: 6274456273181944187}
   - component: {fileID: 289298974432824624}
+  - component: {fileID: 400377100896164843}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -148,7 +149,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
-  m_Sprite: {fileID: 21300000, guid: 9e030f61a2fafc24a919f4dc9d3b4738, type: 3}
+  m_Sprite: {fileID: 8716540631206462916, guid: ab18641c78e083d4198fa7a84055d7ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -302,7 +303,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: 10
+  hpBar: {fileID: 0}
   deathScreen: {fileID: 0}
+  playerHurtAudio: {fileID: 0}
 --- !u!114 &289298974432824624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,6 +324,32 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  spellsUnlocked: []
+  maxSpells: 0
+  earthObject: {fileID: 0}
+  fireObject: {fileID: 0}
+  windObject: {fileID: 0}
+  lightningObject: {fileID: 0}
+  waterObject: {fileID: 0}
+--- !u!95 &400377100896164843
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495602897289010388}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ed2787945c843474e9e1d7371231d2ce, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7832929859177262885
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     // Components
     Rigidbody2D rb;
+    Animator animator;
 
     // Player
     public float walkSpeed = 4f;
@@ -18,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-
+        animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         inputHorizontal = Input.GetAxisRaw("Horizontal");
         inputVertical = Input.GetAxisRaw("Vertical");
 
+        animator.SetFloat("Speed", Mathf.Abs(walkSpeed));
     }
 
     void FixedUpdate()
