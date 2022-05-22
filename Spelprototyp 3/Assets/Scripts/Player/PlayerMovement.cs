@@ -30,15 +30,14 @@ public class PlayerMovement : MonoBehaviour
     {
         inputHorizontal = Input.GetAxisRaw("Horizontal");
         inputVertical = Input.GetAxisRaw("Vertical");
-
-        animator.SetFloat("Speed", Mathf.Abs(walkSpeed));
     }
 
     void FixedUpdate()
     {
         if (inputHorizontal != 0 || inputVertical != 0)
         {
-            if(inputHorizontal != 0 && inputVertical != 0)
+            animator.SetFloat("Speed", 1);
+            if (inputHorizontal != 0 && inputVertical != 0)
             {
                 inputHorizontal *= speedLimiter;
                 inputVertical *= speedLimiter;
@@ -56,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            animator.SetFloat("Speed", 0);
             rb.velocity = new Vector2(0f, 0f);
         }
     }
