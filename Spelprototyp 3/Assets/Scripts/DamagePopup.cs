@@ -9,6 +9,8 @@ public class DamagePopup : MonoBehaviour
     private float disappearTimer;
     private Color textColor;
 
+    private const float disappearTimerMax = 1f;
+
     public static DamagePopup Create(Vector3 position, float damageAmount, bool isWeak, bool isStrong)
     {
         Transform damagePopupTransform = Instantiate(GameAssets.i.pfDamagePopup, position, Quaternion.identity);
@@ -43,7 +45,7 @@ public class DamagePopup : MonoBehaviour
         }
         textMesh.color = textColor;
 
-        disappearTimer = 1f;
+        disappearTimer = disappearTimerMax;
     }
 
     private void Update()
@@ -51,6 +53,16 @@ public class DamagePopup : MonoBehaviour
         float moveYSpeed = 10f;
         transform.position += new Vector3(0, moveYSpeed) * Time.deltaTime;
 
+        if (disappearTimer > disappearTimerMax * .5f)
+        {
+            float increaseScaleAmount = 1f;
+            transform.localScale += Vector3.one * increaseScaleAmount * Time.deltaTime;
+        }
+        else
+        {
+            float decreaseScaleAmount = 1f;
+            transform.localScale -= Vector3.one * decreaseScaleAmount * Time.deltaTime;
+        }
         disappearTimer -= Time.deltaTime;
         if (disappearTimer < 0)
         {
