@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3607780975884865566}
   - component: {fileID: 1171392244623593522}
   - component: {fileID: 8073437529723270615}
+  - component: {fileID: 3538817985802988846}
   m_Layer: 0
   m_Name: Earth Spell Particles
   m_TagString: Untagged
@@ -4920,3 +4921,15 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &3538817985802988846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7180592625272191642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fba56b6537d6d742b179408cf700eb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
