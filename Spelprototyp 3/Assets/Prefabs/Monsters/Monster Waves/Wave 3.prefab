@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 1597395883402698743}
 --- !u!50 &4474493538416708919
 Rigidbody2D:
@@ -5242,7 +5242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 2696254102375683556}
 --- !u!50 &961672380075378468
 Rigidbody2D:
@@ -10327,7 +10327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 3328849367833171155}
 --- !u!50 &432906185511962131
 Rigidbody2D:
@@ -15412,7 +15412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 3543587531641343261}
 --- !u!50 &1810118472135614429
 Rigidbody2D:
@@ -20497,7 +20497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 3678933726214481335}
 --- !u!50 &1962933397165684599
 Rigidbody2D:
@@ -25582,7 +25582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 4726427659395233279}
 --- !u!50 &7612257473624090431
 Rigidbody2D:
@@ -30667,7 +30667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 5787115173348735970}
 --- !u!50 &8681947959513917730
 Rigidbody2D:
@@ -35752,7 +35752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 6593681613330083808}
 --- !u!50 &8336999927253581088
 Rigidbody2D:
@@ -40837,7 +40837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 7558726585031225123}
 --- !u!50 &4672048085267791331
 Rigidbody2D:
@@ -45922,7 +45922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 8271979523316338292}
 --- !u!50 &6555119762709093556
 Rigidbody2D:
@@ -51007,7 +51007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 8795880649601143960}
 --- !u!50 &5918488453243012696
 Rigidbody2D:
@@ -56092,7 +56092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
   spriteRenderer: {fileID: 8995352414274380856}
 --- !u!50 &6117689713357666040
 Rigidbody2D:

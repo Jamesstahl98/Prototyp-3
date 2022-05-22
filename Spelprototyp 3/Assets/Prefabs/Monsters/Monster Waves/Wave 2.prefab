@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   spriteRenderer: {fileID: 520838054781033281}
 --- !u!70 &520838054781033283
 CapsuleCollider2D:
@@ -159,7 +159,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Earth
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -5187,7 +5187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   spriteRenderer: {fileID: 1313711229059980666}
 --- !u!70 &1313711229059980664
 CapsuleCollider2D:
@@ -5244,7 +5244,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Earth
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -10272,7 +10272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   spriteRenderer: {fileID: 2709096450134874596}
 --- !u!70 &2709096450134874598
 CapsuleCollider2D:
@@ -10329,7 +10329,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Earth
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -15357,7 +15357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   spriteRenderer: {fileID: 3260362444011407511}
 --- !u!70 &3260362444011407509
 CapsuleCollider2D:
@@ -15414,7 +15414,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Earth
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -20494,7 +20494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   spriteRenderer: {fileID: 4467561859805274592}
 --- !u!70 &4467561859805274594
 CapsuleCollider2D:
@@ -20551,7 +20551,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Earth
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -25579,7 +25579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   spriteRenderer: {fileID: 4847236285364322564}
 --- !u!70 &4847236285364322566
 CapsuleCollider2D:
@@ -25636,7 +25636,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Earth
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -30664,7 +30664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   spriteRenderer: {fileID: 5195412423503999710}
 --- !u!70 &5195412423503999708
 CapsuleCollider2D:
@@ -30721,7 +30721,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Earth
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -35749,7 +35749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   spriteRenderer: {fileID: 8434840678373614244}
 --- !u!70 &8434840678373614246
 CapsuleCollider2D:
@@ -35806,7 +35806,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Earth
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -40834,7 +40834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
   spriteRenderer: {fileID: 8785327659913476455}
 --- !u!70 &8785327659913476453
 CapsuleCollider2D:
@@ -40891,7 +40891,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Earth
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}

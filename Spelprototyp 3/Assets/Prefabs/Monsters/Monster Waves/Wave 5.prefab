@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 812812920033020563}
 --- !u!50 &812812920033020566
 Rigidbody2D:
@@ -174,7 +174,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -5219,7 +5219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 1614483549301589436}
 --- !u!50 &1614483549301589433
 Rigidbody2D:
@@ -5290,7 +5290,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -10335,7 +10335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 1767219165164220330}
 --- !u!50 &1767219165164220335
 Rigidbody2D:
@@ -10406,7 +10406,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -15451,7 +15451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 2158544459230952764}
 --- !u!50 &2158544459230952761
 Rigidbody2D:
@@ -15522,7 +15522,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -20567,7 +20567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 2213092379569187248}
 --- !u!50 &2213092379569187253
 Rigidbody2D:
@@ -20638,7 +20638,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -25743,7 +25743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 3326012499174968341}
 --- !u!50 &3326012499174968336
 Rigidbody2D:
@@ -25814,7 +25814,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -30859,7 +30859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 4718142043573887878}
 --- !u!50 &4718142043573887875
 Rigidbody2D:
@@ -30930,7 +30930,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -35975,7 +35975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 4827973309837053212}
 --- !u!50 &4827973309837053209
 Rigidbody2D:
@@ -36046,7 +36046,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -41091,7 +41091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 5108272380088554275}
 --- !u!50 &5108272380088554278
 Rigidbody2D:
@@ -41162,7 +41162,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -46207,7 +46207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 6934157307274506395}
 --- !u!50 &6934157307274506398
 Rigidbody2D:
@@ -46278,7 +46278,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -51323,7 +51323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 7021941351443402302}
 --- !u!50 &7021941351443402299
 Rigidbody2D:
@@ -51394,7 +51394,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -56439,7 +56439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 7842686073602214475}
 --- !u!50 &7842686073602214478
 Rigidbody2D:
@@ -56510,7 +56510,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -61555,7 +61555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 7987740687030268034}
 --- !u!50 &7987740687030268039
 Rigidbody2D:
@@ -61626,7 +61626,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -66671,7 +66671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 8591615988289105699}
 --- !u!50 &8591615988289105702
 Rigidbody2D:
@@ -66742,7 +66742,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -71787,7 +71787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 8640137283474920552}
 --- !u!50 &8640137283474920557
 Rigidbody2D:
@@ -71858,7 +71858,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -76903,7 +76903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 8797147615077977087}
 --- !u!50 &8797147615077977082
 Rigidbody2D:
@@ -76974,7 +76974,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -82019,7 +82019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   spriteRenderer: {fileID: 9190834121050059732}
 --- !u!50 &9190834121050059729
 Rigidbody2D:
@@ -82090,7 +82090,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Wind
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 6
+  enemyHP: 9
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}

@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 57678282145189030}
 --- !u!50 &57678282145189027
 Rigidbody2D:
@@ -184,7 +184,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -5213,7 +5213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 123064770659542262}
 --- !u!50 &123064770659542259
 Rigidbody2D:
@@ -5294,7 +5294,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -10323,7 +10323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 163408303966247990}
 --- !u!50 &163408303966247987
 Rigidbody2D:
@@ -10404,7 +10404,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -15433,7 +15433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 1348163724160231263}
 --- !u!50 &1348163724160231258
 Rigidbody2D:
@@ -15514,7 +15514,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -20543,7 +20543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 2264229845642936598}
 --- !u!50 &2264229845642936595
 Rigidbody2D:
@@ -20624,7 +20624,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -25653,7 +25653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 2314539012862544052}
 --- !u!50 &2314539012862544049
 Rigidbody2D:
@@ -25734,7 +25734,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -30763,7 +30763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 2494488596876403505}
 --- !u!50 &2494488596876403508
 Rigidbody2D:
@@ -30844,7 +30844,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -35873,7 +35873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 2861811335634708350}
 --- !u!50 &2861811335634708347
 Rigidbody2D:
@@ -35954,7 +35954,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -41038,7 +41038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 6057872292539416163}
 --- !u!50 &6057872292539416166
 Rigidbody2D:
@@ -41119,7 +41119,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -46148,7 +46148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 6653781722470839490}
 --- !u!50 &6653781722470839495
 Rigidbody2D:
@@ -46229,7 +46229,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -51258,7 +51258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 8259023994891234420}
 --- !u!50 &8259023994891234417
 Rigidbody2D:
@@ -51339,7 +51339,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -56368,7 +56368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 8955644669719234797}
 --- !u!50 &8955644669719234792
 Rigidbody2D:
@@ -56449,7 +56449,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Water
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 7
+  enemyHP: 8
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
