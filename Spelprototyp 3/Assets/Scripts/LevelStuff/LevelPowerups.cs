@@ -58,26 +58,31 @@ public class LevelPowerups : MonoBehaviour
 
         if (listElement == "Fire" && player.GetComponent<Shooting>().fireUnlocked == true)
         {
+            image.enabled = true;
             image.sprite = fireIcon;
             spellUnlocked = true;
         }
         if (listElement == "Earth" && player.GetComponent<Shooting>().earthUnlocked == true)
         {
+            image.enabled = true;
             image.sprite = earthIcon;
             spellUnlocked = true;
         }
         if (listElement == "Wind" && player.GetComponent<Shooting>().windUnlocked == true)
         {
+            image.enabled = true;
             spellUnlocked = true;
             image.sprite = windIcon;
         }
         if (listElement == "Water" && player.GetComponent<Shooting>().waterUnlocked == true)
         {
+            image.enabled = true;
             image.sprite = waterIcon;
             spellUnlocked = true;
         }
         if (listElement == "Lightning" && player.GetComponent<Shooting>().lightningUnlocked == true)
         {
+            image.enabled = true;
             image.sprite = lightningIcon;
             spellUnlocked = true;
         }
