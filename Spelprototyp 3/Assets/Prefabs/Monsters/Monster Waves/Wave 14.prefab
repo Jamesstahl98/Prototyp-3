@@ -74,9 +74,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -136,6 +144,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -198,9 +214,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -260,9 +284,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -322,9 +354,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -384,9 +424,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -446,9 +494,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -508,9 +564,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -570,6 +634,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -632,9 +704,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -694,9 +774,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -756,9 +844,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -818,6 +914,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -880,9 +984,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -942,6 +1054,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1004,6 +1124,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1066,6 +1194,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1128,9 +1264,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -1190,6 +1334,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1252,9 +1404,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -1314,6 +1474,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1376,9 +1544,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: 4373615068362487557, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: enemyHP
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687129, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_Name
       value: Thunder_Monster (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8017629456540687130, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017629456540687131, guid: 8f8de12fd8e08cd4384cb47213e4ed40, type: 3}
       propertyPath: m_RootOrder
@@ -1438,6 +1614,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1500,6 +1684,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1990438765178629429}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 1

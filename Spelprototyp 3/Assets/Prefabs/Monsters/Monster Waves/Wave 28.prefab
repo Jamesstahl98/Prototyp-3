@@ -113,6 +113,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -223,6 +231,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &545661628130943603 stripped
@@ -237,6 +253,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -280,6 +300,10 @@ PrefabInstance:
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
@@ -347,6 +371,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &294143334619928403 stripped
@@ -409,6 +441,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &394737459973104248 stripped
@@ -423,6 +463,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -533,6 +581,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &259712217151439000 stripped
@@ -547,6 +603,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -595,6 +655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &3998418993539401001 stripped
@@ -609,6 +673,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -657,6 +725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &3793192469103571579 stripped
@@ -671,6 +743,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -715,6 +791,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
       value: Fire_Monster  (18)
@@ -733,6 +813,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -776,6 +860,10 @@ PrefabInstance:
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
@@ -843,6 +931,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &846113072377060807 stripped
@@ -857,6 +953,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -904,6 +1004,10 @@ PrefabInstance:
     - target: {fileID: 3648816100939448524, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_Name
       value: Water_Monster (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
@@ -967,6 +1071,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &1583988834231718846 stripped
@@ -1028,6 +1140,14 @@ PrefabInstance:
     - target: {fileID: 432659355284286593, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
@@ -1091,6 +1211,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &1181333903850606461 stripped
@@ -1105,6 +1233,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -1153,6 +1285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &2653498586068720422 stripped
@@ -1167,6 +1303,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -1229,6 +1373,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -1276,6 +1424,10 @@ PrefabInstance:
     - target: {fileID: 3648816100939448524, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_Name
       value: Water_Monster (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
@@ -1339,6 +1491,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &2100360373695724423 stripped
@@ -1401,6 +1561,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &2128115988337491038 stripped
@@ -1415,6 +1583,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -1477,6 +1653,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -1539,6 +1723,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -1583,6 +1771,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
       value: Fire_Monster  (2)
@@ -1601,6 +1793,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -1663,6 +1863,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -1725,6 +1933,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -1768,6 +1980,10 @@ PrefabInstance:
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
@@ -1835,6 +2051,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &3241327638090708449 stripped
@@ -1849,6 +2073,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -1911,6 +2143,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -1955,6 +2191,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
       value: Fire_Monster  (16)
@@ -1973,6 +2213,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -2017,6 +2261,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
       value: Fire_Monster  (5)
@@ -2035,6 +2283,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -2082,6 +2334,10 @@ PrefabInstance:
     - target: {fileID: 3648816100939448524, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_Name
       value: Water_Monster (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
@@ -2145,6 +2401,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &4390320496016505789 stripped
@@ -2159,6 +2423,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -2206,6 +2474,10 @@ PrefabInstance:
     - target: {fileID: 3648816100939448524, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_Name
       value: Water_Monster (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
@@ -2269,6 +2541,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &4126875076222313572 stripped
@@ -2330,6 +2610,14 @@ PrefabInstance:
     - target: {fileID: 432659355284286593, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
@@ -2393,6 +2681,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &5110174386611529026 stripped
@@ -2407,6 +2703,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -2450,6 +2750,10 @@ PrefabInstance:
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
@@ -2517,6 +2821,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &4933228709346899797 stripped
@@ -2531,6 +2843,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -2593,6 +2913,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -2636,6 +2960,10 @@ PrefabInstance:
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
@@ -2703,6 +3031,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &5757960208536252562 stripped
@@ -2764,6 +3100,14 @@ PrefabInstance:
     - target: {fileID: 432659355284286593, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
@@ -2827,6 +3171,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &5516989014121925855 stripped
@@ -2841,6 +3193,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -2889,6 +3245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &8997766858471942497 stripped
@@ -2903,6 +3263,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -2951,6 +3315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &7101731984341357196 stripped
@@ -2965,6 +3333,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -3027,6 +3403,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -3075,6 +3455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &7095248763097417239 stripped
@@ -3089,6 +3473,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 55
@@ -3133,6 +3521,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
       value: Fire_Monster  (4)
@@ -3151,6 +3543,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -3199,6 +3595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &7237922815995080252 stripped
@@ -3213,6 +3613,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -3275,6 +3683,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -3323,6 +3735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &5955886355459333499 stripped
@@ -3337,6 +3753,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -3381,6 +3801,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
       value: Fire_Monster  (3)
@@ -3399,6 +3823,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -3461,6 +3893,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -3509,6 +3945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &6095034175263188144 stripped
@@ -3523,6 +3963,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -3633,6 +4081,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &7945461790493377413 stripped
@@ -3695,6 +4151,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &7984881885052763311 stripped
@@ -3709,6 +4173,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -3771,6 +4243,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: -3227361609930884206, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: enemyHP
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395202759652617004, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
+      propertyPath: speed
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2395202759652617006, guid: e9e1768d99a202d4b82b61f380642067, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -3881,6 +4361,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 432659355284286595, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689855094462347064, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
+      propertyPath: enemyHP
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6539fa842f4ba984d9eebdf5a14573fa, type: 3}
 --- !u!4 &9047908277018354993 stripped
@@ -3895,6 +4383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -3943,6 +4435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &5750545380741200271 stripped
@@ -3957,6 +4453,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061021685977512849}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -4004,6 +4504,10 @@ PrefabInstance:
     - target: {fileID: 3648816100939448524, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_Name
       value: Water_Monster (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}

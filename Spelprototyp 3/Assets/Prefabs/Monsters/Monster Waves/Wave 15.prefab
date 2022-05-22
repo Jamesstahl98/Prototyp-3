@@ -73,17 +73,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -52.79
+      value: -54.620003
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.037149
+      value: 9.757149
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -135,17 +139,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.4
+      value: -43.879997
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.037149
+      value: 8.04
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -183,6 +191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &4285765417137355043 stripped
@@ -197,6 +209,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -207,7 +223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.537149
+      value: 15.83
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -245,6 +261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &4473454110542932095 stripped
@@ -259,17 +279,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -50.29
+      value: -49.100002
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2871485
+      value: 4.3500013
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -321,17 +345,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.15
+      value: -56.980003
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2871485
+      value: 5.29
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -369,6 +397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &2747924905577097303 stripped
@@ -383,6 +415,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -393,7 +429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.537149
+      value: 15.83
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -431,6 +467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &2854568266561849359 stripped
@@ -445,17 +485,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.15
+      value: -56.98
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.037148
+      value: 8.04
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -493,6 +537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &1593850346862000645 stripped
@@ -507,9 +555,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5929
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5929
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5929
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -551,6 +615,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7032071176597837622, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837771, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_Name
       value: Fire_Monster  (5)
@@ -569,17 +637,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -49.15
+      value: -49.42
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5371485
+      value: 1.6000013
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -617,6 +689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &864134825064768568 stripped
@@ -631,17 +707,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -47.79
+      value: -46.269997
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.037149
+      value: 9.757149
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -693,17 +773,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.4
+      value: -43.88
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.787149
+      value: 10.79
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -741,6 +825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &866147955160998046 stripped
@@ -755,6 +843,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -765,7 +857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.537149
+      value: 15.83
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -803,6 +895,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &8518265301595480653 stripped
@@ -817,17 +913,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -53.15
+      value: -53.42
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5371485
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -865,6 +965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &7133500067312145250 stripped
@@ -879,17 +983,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -50.29
+      value: -51.6
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.787148
+      value: 13.079999
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -941,17 +1049,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -47.79
+      value: -46.269997
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2871485
+      value: 7.007148
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1003,17 +1115,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -51.15
+      value: -51.42
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5371485
+      value: 1.6000013
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1051,6 +1167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &7517700507063710870 stripped
@@ -1065,17 +1185,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.4
+      value: -43.879997
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2871485
+      value: 5.289999
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1113,6 +1237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &6161949626329818474 stripped
@@ -1127,17 +1255,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -52.79
+      value: -51.600002
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.787149
+      value: 4.3400006
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1189,17 +1321,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.15
+      value: -56.980003
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.787148
+      value: 10.79
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1237,6 +1373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &4702260374741831871 stripped
@@ -1251,17 +1391,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -47.15
+      value: -47.42
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5371485
+      value: 1.6000013
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1299,6 +1443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &5160400412032287388 stripped
@@ -1313,6 +1461,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: 3648816100939448369, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -1323,7 +1475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.537148
+      value: 15.829999
       objectReference: {fileID: 0}
     - target: {fileID: 3648816100939448371, guid: 4462914287fc91f448a470af5f68974c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1361,6 +1513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_Monster (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6345210500378692558, guid: 4462914287fc91f448a470af5f68974c, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4462914287fc91f448a470af5f68974c, type: 3}
 --- !u!4 &5378129392890917263 stripped
@@ -1375,17 +1531,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -47.79
+      value: -49.1
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.787149
+      value: 13.08
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1437,17 +1597,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2603716604401272924}
     m_Modifications:
+    - target: {fileID: -141846418912371413, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
+      propertyPath: enemyHP
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -52.79
+      value: -54.64
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2871485
+      value: 7.41
       objectReference: {fileID: 0}
     - target: {fileID: 7032071176597837620, guid: 0501e0481bae4d44e87b4af1a7510a9d, type: 3}
       propertyPath: m_LocalPosition.z
