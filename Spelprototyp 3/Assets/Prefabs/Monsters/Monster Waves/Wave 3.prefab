@@ -229,6 +229,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &196301407750753571
 Animator:
   serializedVersion: 3
@@ -422,6 +423,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &3601037825342818096
 Animator:
   serializedVersion: 3
@@ -615,6 +617,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &4224379595974886919
 Animator:
   serializedVersion: 3
@@ -808,6 +811,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &2719938971717820361
 Animator:
   serializedVersion: 3
@@ -1001,6 +1005,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &2854229638013581155
 Animator:
   serializedVersion: 3
@@ -1194,6 +1199,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &6126536972561442603
 Animator:
   serializedVersion: 3
@@ -1387,6 +1393,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &4962270343700834614
 Animator:
   serializedVersion: 3
@@ -1580,6 +1587,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &5697905094919945524
 Animator:
   serializedVersion: 3
@@ -1773,6 +1781,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &8968793070129741303
 Animator:
   serializedVersion: 3
@@ -1966,6 +1975,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &7375077099630255264
 Animator:
   serializedVersion: 3
@@ -2159,6 +2169,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &7963295262321034828
 Animator:
   serializedVersion: 3
@@ -2352,6 +2363,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!95 &7514143124449523436
 Animator:
   serializedVersion: 3

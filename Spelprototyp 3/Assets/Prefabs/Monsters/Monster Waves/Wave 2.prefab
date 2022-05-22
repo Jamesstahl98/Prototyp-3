@@ -163,6 +163,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &3664024399754804223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5246,6 +5247,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &2871155623516110276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10329,6 +10331,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &1187821562335246682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15412,6 +15415,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &1791442999714392105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20547,6 +20551,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &584533794875490654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25630,6 +25635,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &8549958602201457082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30713,6 +30719,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &9077719346312008288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35796,6 +35803,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &4678619186329305626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40879,6 +40887,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &5478797451543140825
 MonoBehaviour:
   m_ObjectHideFlags: 0

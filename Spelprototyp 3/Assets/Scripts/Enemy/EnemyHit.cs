@@ -32,6 +32,9 @@ public class EnemyHit : MonoBehaviour
     private CapsuleCollider2D capsuleCollider;
     private EdgeCollider2D edgeCollider;
 
+    [SerializeField]
+    private GameObject enemyDeathSound;
+
     void FixedUpdate()
     {
         areaDamageTimer++;
@@ -92,6 +95,7 @@ public class EnemyHit : MonoBehaviour
 
         if (enemyHP <= 0)
         {
+            Instantiate(enemyDeathSound, gameObject.transform.position, Quaternion.identity);
             var dropNumber = Random.Range(1, 100);
 
             if (dropNumber <= xpDropRate)

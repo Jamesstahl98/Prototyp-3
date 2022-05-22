@@ -188,6 +188,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &1182225637108237597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5296,6 +5297,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &1229983123252473165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10404,6 +10406,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &1360222460841514381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15512,6 +15515,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &148990560661008100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20620,6 +20624,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &1137397430440167597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25728,6 +25733,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &3511142067994755343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30836,6 +30842,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &3619422722450401930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35944,6 +35951,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &3968731049726832325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41107,6 +41115,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &4950884404492285912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46215,6 +46224,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &5544506025524788601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51323,6 +51333,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &7077692082522809807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56431,6 +56442,7 @@ MonoBehaviour:
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
+  enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
 --- !u!114 &7848690596016996694
 MonoBehaviour:
   m_ObjectHideFlags: 0
