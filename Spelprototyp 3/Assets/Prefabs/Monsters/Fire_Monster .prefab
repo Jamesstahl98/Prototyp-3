@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -6739469400686006733}
   - component: {fileID: 1641885236581228020}
   - component: {fileID: 1609995135672687744}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Fire_Monster '
   m_TagString: Enemy
   m_Icon: {fileID: 0}

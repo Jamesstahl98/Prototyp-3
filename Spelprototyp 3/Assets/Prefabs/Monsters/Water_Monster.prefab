@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 4084257225315967263}
   - component: {fileID: 4129470056588848133}
   - component: {fileID: 6594536377972523200}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Water_Monster
   m_TagString: Enemy
   m_Icon: {fileID: 0}

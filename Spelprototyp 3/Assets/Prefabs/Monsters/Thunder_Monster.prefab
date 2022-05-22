@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8571258430885464942}
   - component: {fileID: 4373615068362487557}
   - component: {fileID: -300008884266350132}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster
   m_TagString: Enemy
   m_Icon: {fileID: 0}

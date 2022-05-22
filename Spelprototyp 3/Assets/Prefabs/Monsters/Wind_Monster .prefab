@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 6519381352947580440}
   - component: {fileID: 3605088526954212241}
   - component: {fileID: 4365601502614835409}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Wind_Monster '
   m_TagString: Enemy
   m_Icon: {fileID: 0}
