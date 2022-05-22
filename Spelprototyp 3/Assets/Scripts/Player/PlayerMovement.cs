@@ -14,10 +14,13 @@ public class PlayerMovement : MonoBehaviour
     float inputHorizontal;
     float inputVertical;
 
+    private SpriteRenderer sr;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        sr = gameObject.GetComponent<SpriteRenderer>();
         rb = gameObject.GetComponent<Rigidbody2D>();
         animator = gameObject.GetComponent<Animator>();
     }
@@ -42,6 +45,14 @@ public class PlayerMovement : MonoBehaviour
             }
 
             rb.velocity = new Vector2(inputHorizontal * walkSpeed, inputVertical * walkSpeed);
+            if (inputHorizontal > 0)
+            {
+                sr.flipX = false;
+            }
+            else if (inputHorizontal < 0)
+            {
+                sr.flipX = true;
+            }
         }
         else
         {
