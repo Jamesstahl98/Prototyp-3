@@ -9,6 +9,13 @@ public class MagmaController : MonoBehaviour
     private float startTime;
     private float spellTimer;
     private GameObject player;
+    private AudioSource audio;
+
+    void Awake()
+    {
+        audio = GameObject.Find("MagmaSound").GetComponent<AudioSource>();
+        audio.Play();
+    }
 
     void Start()
     {

@@ -9,6 +9,13 @@ public class LightningController : MonoBehaviour
     private float startTime;
     private float spellTimer;
     private GameObject player;
+    private AudioSource audio;
+
+    void Awake()
+    {
+        audio = GameObject.Find("LightningSound").GetComponent<AudioSource>();
+        audio.Play();
+    }
 
     void Start()
     {
