@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 1124908921005494145}
   - component: {fileID: 5034306600751985642}
   - component: {fileID: 196301407750753571}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (8)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 4385496073596700050}
   - component: {fileID: 8547094232862603769}
   - component: {fileID: 3601037825342818096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (11)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 4000638475965170853}
   - component: {fileID: 9062393524986624206}
   - component: {fileID: 4224379595974886919}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 2925712163948240235}
   - component: {fileID: 7123355595694285056}
   - component: {fileID: 2719938971717820361}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -843,7 +843,7 @@ GameObject:
   - component: {fileID: 3078596381228086721}
   - component: {fileID: 6987429942118943146}
   - component: {fileID: 2854229638013581155}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (9)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1036,7 +1036,7 @@ GameObject:
   - component: {fileID: 6350296792311375241}
   - component: {fileID: 1324551780462172642}
   - component: {fileID: 6126536972561442603}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1229,7 +1229,7 @@ GameObject:
   - component: {fileID: 5330180811589790612}
   - component: {fileID: 268406933967542271}
   - component: {fileID: 4962270343700834614}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1422,7 +1422,7 @@ GameObject:
   - component: {fileID: 4771031493499731862}
   - component: {fileID: 609976373155070973}
   - component: {fileID: 5697905094919945524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1615,7 +1615,7 @@ GameObject:
   - component: {fileID: 8165747835389001557}
   - component: {fileID: 4256915391022629694}
   - component: {fileID: 8968793070129741303}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (6)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1808,7 +1808,7 @@ GameObject:
   - component: {fileID: 7745228389396749826}
   - component: {fileID: 2395243978406044265}
   - component: {fileID: 7375077099630255264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (10)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2001,7 +2001,7 @@ GameObject:
   - component: {fileID: 7180518442374890734}
   - component: {fileID: 3019481996011190405}
   - component: {fileID: 7963295262321034828}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2194,7 +2194,7 @@ GameObject:
   - component: {fileID: 7305547776578171982}
   - component: {fileID: 3396714008992843813}
   - component: {fileID: 7514143124449523436}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Thunder_Monster (7)
   m_TagString: Enemy
   m_Icon: {fileID: 0}

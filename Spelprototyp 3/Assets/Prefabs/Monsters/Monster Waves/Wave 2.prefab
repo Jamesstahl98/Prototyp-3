@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 2764371432602872749}
   - component: {fileID: 2491371446926415787}
   - component: {fileID: 8745071799898488529}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Monster (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5101,7 +5101,7 @@ GameObject:
   - component: {fileID: 3700933321857789334}
   - component: {fileID: 4004402884575547792}
   - component: {fileID: 7808646245790611690}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Monster (7)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -10184,7 +10184,7 @@ GameObject:
   - component: {fileID: 360220377332132104}
   - component: {fileID: 14045763594917134}
   - component: {fileID: 6628871878910491764}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Monster (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -15267,7 +15267,7 @@ GameObject:
   - component: {fileID: 889535719392000123}
   - component: {fileID: 618787605536834685}
   - component: {fileID: 6006110141380144391}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Monster (6)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -20402,7 +20402,7 @@ GameObject:
   - component: {fileID: 2060556873340571916}
   - component: {fileID: 1753788689770999050}
   - component: {fileID: 4870969358970537072}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Monster (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -25485,7 +25485,7 @@ GameObject:
   - component: {fileID: 7071691416483983848}
   - component: {fileID: 7416748995124743662}
   - component: {fileID: 4405092989924336788}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Monster (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -30568,7 +30568,7 @@ GameObject:
   - component: {fileID: 7601713653878473266}
   - component: {fileID: 7903978151854243380}
   - component: {fileID: 3926873991215437646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Monster
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -35651,7 +35651,7 @@ GameObject:
   - component: {fileID: 6082661809436480072}
   - component: {fileID: 5811843342943284814}
   - component: {fileID: 821992608875136820}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Monster (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -40734,7 +40734,7 @@ GameObject:
   - component: {fileID: 6380658037253523851}
   - component: {fileID: 6648019657442555277}
   - component: {fileID: 544126252949757175}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stone_Monster (8)
   m_TagString: Enemy
   m_Icon: {fileID: 0}

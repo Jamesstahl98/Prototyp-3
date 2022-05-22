@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4855907785145497701}
   - component: {fileID: 8633993959396969378}
   - component: {fileID: 8596496636731509462}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5080,7 +5080,7 @@ GameObject:
   - component: {fileID: 5505443429504652589}
   - component: {fileID: 8707426225783383786}
   - component: {fileID: 8667179559226730398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Fire_Monster '
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -10143,7 +10143,7 @@ GameObject:
   - component: {fileID: 5907156689318711981}
   - component: {fileID: 7299158603862450538}
   - component: {fileID: 7337821694300807198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -15206,7 +15206,7 @@ GameObject:
   - component: {fileID: 1266524737168986281}
   - component: {fileID: 2675740901068563310}
   - component: {fileID: 2719289944121909786}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (7)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -20321,7 +20321,7 @@ GameObject:
   - component: {fileID: 3648236241201350908}
   - component: {fileID: 437023083197135675}
   - component: {fileID: 472422531251124815}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -25384,7 +25384,7 @@ GameObject:
   - component: {fileID: 3800709836044123495}
   - component: {fileID: 4337369538956960}
   - component: {fileID: 40980135396003796}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -30447,7 +30447,7 @@ GameObject:
   - component: {fileID: 4305891556289089168}
   - component: {fileID: 1112428876956974423}
   - component: {fileID: 1148096627323010083}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -35510,7 +35510,7 @@ GameObject:
   - component: {fileID: 4350871645185830814}
   - component: {fileID: 635248410961763417}
   - component: {fileID: 598456446446771501}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (6)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -40573,7 +40573,7 @@ GameObject:
   - component: {fileID: 4326375773443636904}
   - component: {fileID: 629345603639938415}
   - component: {fileID: 586907874750942235}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (8)
   m_TagString: Enemy
   m_Icon: {fileID: 0}

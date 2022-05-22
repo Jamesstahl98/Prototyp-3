@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5173887839521092016}
   - component: {fileID: 8321783729714430583}
   - component: {fileID: 8350260650328474371}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5132,7 +5132,7 @@ GameObject:
   - component: {fileID: 5964197428591105942}
   - component: {fileID: 7382710767099290705}
   - component: {fileID: 7415836167425680677}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -10197,7 +10197,7 @@ GameObject:
   - component: {fileID: 6546857733525575536}
   - component: {fileID: 3649527902334108409}
   - component: {fileID: 4339176250858125753}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wind_Monster  (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -15309,7 +15309,7 @@ GameObject:
   - component: {fileID: 7931946784478537825}
   - component: {fileID: 6530872804730608550}
   - component: {fileID: 6502263077201468114}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -20372,7 +20372,7 @@ GameObject:
   - component: {fileID: 2439143043909026805}
   - component: {fileID: 1542533489059901490}
   - component: {fileID: 1582683142858109254}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -25437,7 +25437,7 @@ GameObject:
   - component: {fileID: 1233845289434068229}
   - component: {fileID: 8746511534836834444}
   - component: {fileID: 8643457046424558540}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wind_Monster  (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -30551,7 +30551,7 @@ GameObject:
   - component: {fileID: 1602906194103671348}
   - component: {fileID: 9097285087461724093}
   - component: {fileID: 8129682407036597501}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wind_Monster  (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -35663,7 +35663,7 @@ GameObject:
   - component: {fileID: 3964556592541969751}
   - component: {fileID: 267210543196708496}
   - component: {fileID: 228466924218736612}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire_Monster  (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -40728,7 +40728,7 @@ GameObject:
   - component: {fileID: 389397570545919756}
   - component: {fileID: 7861540163846271621}
   - component: {fileID: 7173018857746991557}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Wind_Monster '
   m_TagString: Enemy
   m_Icon: {fileID: 0}
