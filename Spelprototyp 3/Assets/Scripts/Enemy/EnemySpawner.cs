@@ -31,10 +31,15 @@ public class EnemySpawner : MonoBehaviour
 
         if (timer >= interval)
         {
-            var wave = Mathf.RoundToInt(totalTimer / 16) - 1;
-            if(wave <= enemyWaves.Length)
+            var wave = Mathf.RoundToInt(totalTimer / waveTime);
+            Debug.Log(wave);
+            if(wave <= enemyWaves.Length -1)
             {
                 var newEnemy = Instantiate(enemyWaves[wave], spawnPoints[Random.Range(0, spawnPoints.Length)].position, transform.rotation);
+            }
+            else if (wave == enemyWaves.Length)
+            {
+                Debug.Log("win");
             }
             timer = 0f;
         }
