@@ -14,6 +14,9 @@ public class PlayerHealth : MonoBehaviour
     private GameObject deathScreen;
     private ParticleSystem ps;
 
+    [SerializeField]
+    private AudioSource playerHurtAudio;
+
     void Start()
     {
         sr = gameObject.GetComponent<SpriteRenderer>();
@@ -35,6 +38,7 @@ public class PlayerHealth : MonoBehaviour
         if (collision.gameObject.tag == "Enemy" && damagedTimer > 30)
         {
             ps.Play();
+            playerHurtAudio.Play();
             damagedTimer = 0;
             playerHealth = playerHealth - collision.gameObject.GetComponent<Enemy>().damage;
             sr.color = new Color(255f, 0f, 0f, 255f);
