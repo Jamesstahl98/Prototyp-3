@@ -12,7 +12,7 @@ public class PlantProjectileCollider : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        baseDamage = (player.GetComponent<Shooting>().earthDamage + player.GetComponent<Shooting>().waterDamage) / 2;
+        baseDamage = (player.GetComponent<Shooting>().earthDamage + player.GetComponent<Shooting>().waterDamage) / 1.2f;
         spellHP = Mathf.Round((player.GetComponent<Shooting>().earthHP + player.GetComponent<Shooting>().waterHP) / 2);
     }
 

@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 298117872293529782}
 --- !u!70 &298117872293529780
 CapsuleCollider2D:
@@ -158,7 +158,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Fire
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 5
+  enemyHP: 10
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -5218,7 +5218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 1237191124723363472}
 --- !u!70 &1237191124723363474
 CapsuleCollider2D:
@@ -5275,7 +5275,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Fire
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 5
+  enemyHP: 10
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -10285,7 +10285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 10
   spriteRenderer: {fileID: 2422684367207809607}
 --- !u!50 &2422684367207809602
 Rigidbody2D:
@@ -15399,7 +15399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 3313972716112662887}
 --- !u!70 &3313972716112662885
 CapsuleCollider2D:
@@ -15456,7 +15456,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Fire
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 5
+  enemyHP: 10
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -20464,7 +20464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 7077376711684160243}
 --- !u!70 &7077376711684160241
 CapsuleCollider2D:
@@ -20521,7 +20521,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Fire
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 5
+  enemyHP: 10
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -25531,7 +25531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 10
   spriteRenderer: {fileID: 7663852457278988338}
 --- !u!50 &7663852457278988343
 Rigidbody2D:
@@ -30647,7 +30647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 10
   spriteRenderer: {fileID: 7888807107301822211}
 --- !u!50 &7888807107301822214
 Rigidbody2D:
@@ -35761,7 +35761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 8424713200049312849}
 --- !u!70 &8424713200049312851
 CapsuleCollider2D:
@@ -35818,7 +35818,7 @@ MonoBehaviour:
   areaDamageTimer: 1
   enemyType: Fire
   pfDamagePopup: {fileID: 2197731694301737445, guid: 4a414432172c1c74d86951dbe57caaba, type: 3}
-  enemyHP: 5
+  enemyHP: 10
   hpIncreaseFactor: 30
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
@@ -40828,7 +40828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 10
   spriteRenderer: {fileID: 9089229360914100795}
 --- !u!50 &9089229360914100798
 Rigidbody2D:

@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 39918134361637219}
 --- !u!70 &39918134361637217
 CapsuleCollider2D:
@@ -5166,7 +5166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 1119483786258312235}
 --- !u!70 &1119483786258312233
 CapsuleCollider2D:
@@ -10231,7 +10231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 1302693155660131243}
 --- !u!70 &1302693155660131241
 CapsuleCollider2D:
@@ -15296,7 +15296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 5944169566017792431}
 --- !u!70 &5944169566017792429
 CapsuleCollider2D:
@@ -20413,7 +20413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 8164837815685558778}
 --- !u!70 &8164837815685558776
 CapsuleCollider2D:
@@ -25478,7 +25478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 8597550113379861601}
 --- !u!70 &8597550113379861603
 CapsuleCollider2D:
@@ -30543,7 +30543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 8660403105129133974}
 --- !u!70 &8660403105129133972
 CapsuleCollider2D:
@@ -35608,7 +35608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 9191584633110697624}
 --- !u!70 &9191584633110697626
 CapsuleCollider2D:
@@ -40673,7 +40673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c843b46dacf627f4dafd37a8c710dfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 6
   spriteRenderer: {fileID: 9215535730743887790}
 --- !u!70 &9215535730743887788
 CapsuleCollider2D:
