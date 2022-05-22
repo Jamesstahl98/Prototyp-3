@@ -34,6 +34,8 @@ public class EnemyHit : MonoBehaviour
 
     [SerializeField]
     private GameObject enemyDeathSound;
+    [SerializeField]
+    private GameObject enemyHitSound;
 
     void FixedUpdate()
     {
@@ -90,6 +92,7 @@ public class EnemyHit : MonoBehaviour
             enemyHP = enemyHP - damageTaken;
         }
 
+        Instantiate(enemyHitSound, gameObject.transform.position, Quaternion.identity);
         //Spawn Damage Popup
         DamagePopup.Create(transform.position, Mathf.Round(damageTaken), isWeak, isStrong);
 

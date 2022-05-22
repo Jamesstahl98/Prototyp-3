@@ -179,6 +179,7 @@ MonoBehaviour:
   xpDropRate: 60
   xpPrefab: {fileID: 6538685451511018912, guid: 0703c34b10d87d44cb4fca326a18ec5f, type: 3}
   enemyDeathSound: {fileID: 4947358545417867105, guid: 37bf580bde160484d8192b2d9fd1145f, type: 3}
+  enemyHitSound: {fileID: 4947358545417867105, guid: e32822fa1acba7047ae143859000fb8f, type: 3}
 --- !u!114 &-1529484624917597421
 MonoBehaviour:
   m_ObjectHideFlags: 0
