@@ -9,6 +9,8 @@ public class SpellSelector : MonoBehaviour
     private int activeSpellZero = 1;
     private int activeSpellOne = 2;
 
+    private bool stopSort = false;
+
     public int maxSpells;
 
     public GameObject earthObject;
@@ -84,37 +86,44 @@ public class SpellSelector : MonoBehaviour
 
     public void SortAbilities()
     {
-        spellsUnlocked.Clear();
-        if (gameObject.GetComponent<Shooting>().earthUnlocked == true)
+        if (stopSort == false)
         {
-            spellsUnlocked.Add(earthObject);
+            spellsUnlocked.Clear();
+            if (gameObject.GetComponent<Shooting>().earthUnlocked == true)
+            {
+                spellsUnlocked.Add(earthObject);
+            }
+            if (gameObject.GetComponent<Shooting>().fireUnlocked == true)
+            {
+                spellsUnlocked.Add(fireObject);
+            }
+            if (gameObject.GetComponent<Shooting>().windUnlocked == true)
+            {
+                spellsUnlocked.Add(windObject);
+            }
+            if (gameObject.GetComponent<Shooting>().lightningUnlocked == true)
+            {
+                spellsUnlocked.Add(lightningObject);
+            }
+            if (gameObject.GetComponent<Shooting>().waterUnlocked == true)
+            {
+                spellsUnlocked.Add(waterObject);
+            }
+            for (int i = 0; i < spellsUnlocked.Count; i++)
+            {
+                spellsUnlocked[i].GetComponent<UISpellCooldowns>().Deactivate();
+            }
+            activeSpellZero = 1;
+            activeSpellOne = 2;
+            spellsUnlocked[activeSpellZero - 1].GetComponent<UISpellCooldowns>().ActivateLeft();
+            if (spellsUnlocked.Count > 1)
+            {
+                spellsUnlocked[activeSpellOne - 1].GetComponent<UISpellCooldowns>().ActivateRight();
+            }
         }
-        if (gameObject.GetComponent<Shooting>().fireUnlocked == true)
+        if (spellsUnlocked.Count == 4)
         {
-            spellsUnlocked.Add(fireObject);
-        }
-        if (gameObject.GetComponent<Shooting>().windUnlocked == true)
-        {
-            spellsUnlocked.Add(windObject);
-        }
-        if (gameObject.GetComponent<Shooting>().lightningUnlocked == true)
-        {
-            spellsUnlocked.Add(lightningObject);
-        }
-        if (gameObject.GetComponent<Shooting>().waterUnlocked == true)
-        {
-            spellsUnlocked.Add(waterObject);
-        }
-        for (int i = 0; i < spellsUnlocked.Count; i++)
-        {
-            spellsUnlocked[i].GetComponent<UISpellCooldowns>().Deactivate();
-        }
-        activeSpellZero = 1;
-        activeSpellOne = 2;
-        spellsUnlocked[activeSpellZero - 1].GetComponent<UISpellCooldowns>().ActivateLeft();
-        if(spellsUnlocked.Count>1)
-        {
-            spellsUnlocked[activeSpellOne - 1].GetComponent<UISpellCooldowns>().ActivateRight();
+            stopSort = true;
         }
     }
 }
